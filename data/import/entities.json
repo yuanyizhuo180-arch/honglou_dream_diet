@@ -1,0 +1,6025 @@
+[
+  {
+    "id": "entity-0001",
+    "name": "一碗肉",
+    "categories": [
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0002",
+    "name": "万艳同杯",
+    "categories": [
+      "酒"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0003",
+    "name": "下用常米",
+    "categories": [
+      "谷物食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0004",
+    "name": "两宴大观园",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0005",
+    "name": "丹阳封缸酒",
+    "categories": [
+      "作者酒种推测"
+    ],
+    "decisions": [
+      "reference_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0006",
+    "name": "乌木三镶银箸",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0007",
+    "name": "乌木镶银筷",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0008",
+    "name": "乌银梅花自斟壶",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0009",
+    "name": "乌银洋錾自斟壶",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0010",
+    "name": "乳钵",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0011",
+    "name": "二姐备酒劝三姐",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0012",
+    "name": "五香大头菜",
+    "categories": [
+      "素菜/佐餐"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0013",
+    "name": "京都瓜子",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0014",
+    "name": "人参",
+    "categories": [
+      "食药边界"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0015",
+    "name": "人参养荣丸",
+    "categories": [
+      "纯药物"
+    ],
+    "decisions": [
+      "exclude_medicine"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0016",
+    "name": "佛手",
+    "categories": [
+      "果品或陈设"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0017",
+    "name": "供奉“痘疹娘娘”",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0018",
+    "name": "倭瓜",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0019",
+    "name": "元妃省亲大宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0020",
+    "name": "元宵",
+    "categories": [
+      "主食点心",
+      "节令点心"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0021",
+    "name": "六安茶",
+    "categories": [
+      "现代复原附录分项",
+      "茶",
+      "茶与饮用水"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0022",
+    "name": "内造小饽饽",
+    "categories": [
+      "点心"
+    ],
+    "decisions": [
+      "needs_source_check"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0023",
+    "name": "内造瓜仁油松穰月饼",
+    "categories": [
+      "主食点心",
+      "点心"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0024",
+    "name": "冰糖",
+    "categories": [
+      "调味"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0025",
+    "name": "冷盘宴",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0026",
+    "name": "凉拌酸酸的素菜",
+    "categories": [
+      "现代复原附录分项",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0027",
+    "name": "几",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0028",
+    "name": "凤姐、宝玉途中用茶果",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0029",
+    "name": "凤姐、尤氏用晚饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0030",
+    "name": "凤姐、平儿午膳",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0031",
+    "name": "凤姐备邢夫人晚饭、凤姐在宁府用晚饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0032",
+    "name": "凤姐摆酒为贾琏接风",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0033",
+    "name": "凤姐早饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0034",
+    "name": "凤姐生日宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0035",
+    "name": "凤姐用餐",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0036",
+    "name": "凤姐请贾母用晚饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0037",
+    "name": "凳",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0038",
+    "name": "击鼓传花",
+    "categories": [
+      "饮食娱乐"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0039",
+    "name": "击鼓催诗",
+    "categories": [
+      "饮食娱乐"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0040",
+    "name": "刘姥姥用客饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0041",
+    "name": "北京粽子",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0042",
+    "name": "北静王生日",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0043",
+    "name": "匾灯",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0044",
+    "name": "十锦攒心盒子",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0045",
+    "name": "十锦珐琅杯",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0046",
+    "name": "南菜",
+    "categories": [
+      "素菜/佐餐"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0047",
+    "name": "占花名游戏",
+    "categories": [
+      "饮食娱乐"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0048",
+    "name": "参汤",
+    "categories": [
+      "食药边界"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0049",
+    "name": "双陆",
+    "categories": [
+      "饮食娱乐"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0050",
+    "name": "司棋中饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0051",
+    "name": "各样内造点心",
+    "categories": [
+      "食品泛称"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0052",
+    "name": "合欢杯",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0053",
+    "name": "合欢汤",
+    "categories": [
+      "主食点心",
+      "汤羹"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0054",
+    "name": "合欢花浸的烧酒",
+    "categories": [
+      "现代复原附录分项",
+      "酒"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0055",
+    "name": "吉祥果",
+    "categories": [
+      "果品或陈设"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0056",
+    "name": "咸菜",
+    "categories": [
+      "素菜/佐餐"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0057",
+    "name": "四楞象牙镶金筷",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0058",
+    "name": "四角平头白纱灯",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0059",
+    "name": "围屏",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0060",
+    "name": "围屏灯",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0061",
+    "name": "固体汤料",
+    "categories": [
+      "研究推测"
+    ],
+    "decisions": [
+      "reference_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0062",
+    "name": "填漆茶盘",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0063",
+    "name": "大对虾",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0064",
+    "name": "大捧盒",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0065",
+    "name": "大红油漆盒",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0066",
+    "name": "大观园中秋宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0067",
+    "name": "大观园螃蟹宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0068",
+    "name": "大铜盆",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0069",
+    "name": "大鹿",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0070",
+    "name": "太虚幻境宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0071",
+    "name": "女儿茶",
+    "categories": [
+      "茶",
+      "茶与饮用水"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0072",
+    "name": "奶子",
+    "categories": [
+      "乳品"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0073",
+    "name": "奶子糖粳米粥",
+    "categories": [
+      "主食点心",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0074",
+    "name": "奶油松瓤卷酥",
+    "categories": [
+      "主食点心",
+      "点心"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0075",
+    "name": "如意糕",
+    "categories": [
+      "主食点心",
+      "点心",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0076",
+    "name": "姜",
+    "categories": [
+      "调味"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0077",
+    "name": "姜汤",
+    "categories": [
+      "食药边界"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0078",
+    "name": "宁府会芳园梅花宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0079",
+    "name": "完整的饮食体系",
+    "categories": [
+      "研究语境"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0080",
+    "name": "官窑盘子",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0081",
+    "name": "官窑脱胎填白盖碗",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0082",
+    "name": "宝玉、泰钟吃茶果",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0083",
+    "name": "宝玉、芳官在怡红院用午饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0084",
+    "name": "宝玉、薛蟠在冯寮小宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0085",
+    "name": "宝玉、麝月、袭人用餐",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0086",
+    "name": "宝玉、黛玉在薛姨妈处用晚饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0087",
+    "name": "宝玉、黛玉用茶点",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0088",
+    "name": "宝玉一祭腈雯",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0089",
+    "name": "宝玉与众姊妹用早饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0090",
+    "name": "宝玉临行用餐",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0091",
+    "name": "宝玉二祭晴雯",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0092",
+    "name": "宝玉昏迷后醒来用茶",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0093",
+    "name": "宝玉生日宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0094",
+    "name": "宝玉病餐",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0095",
+    "name": "宝玉至袭人家吃年茶",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0096",
+    "name": "宝钗婚后生日宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0097",
+    "name": "宝钗生日宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0098",
+    "name": "宣窑磁盒",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0099",
+    "name": "宫灯及诸灯",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0100",
+    "name": "宴会概述",
+    "categories": [
+      "研究语境"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0101",
+    "name": "家庭可自制的红楼食品",
+    "categories": [
+      "现代复原附录"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0102",
+    "name": "家汤羊",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0103",
+    "name": "家腊猪",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0104",
+    "name": "家风羊",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0105",
+    "name": "寿桃",
+    "categories": [
+      "主食点心",
+      "现代复原附录分项",
+      "糕点"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0106",
+    "name": "寿面",
+    "categories": [
+      "主食点心",
+      "现代复原附录分项",
+      "面食"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0107",
+    "name": "射覆",
+    "categories": [
+      "饮食娱乐"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0108",
+    "name": "小厮们厨下饮酒",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0109",
+    "name": "小洋漆茶盘",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0110",
+    "name": "小白玉盒子",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0111",
+    "name": "小锦匣",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0112",
+    "name": "尤氏在袭人处用点心",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0113",
+    "name": "屠苏酒",
+    "categories": [
+      "酒"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0114",
+    "name": "布帘",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0115",
+    "name": "干菜",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0116",
+    "name": "干虾",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0117",
+    "name": "干鱼片",
+    "categories": [
+      "研究释义"
+    ],
+    "decisions": [
+      "reference_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0118",
+    "name": "建莲红枣汤",
+    "categories": [
+      "主食点心",
+      "现代复原附录分项",
+      "补食汤饮"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0119",
+    "name": "彩屏、绣屏",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0120",
+    "name": "彩灯",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0121",
+    "name": "御用粳米",
+    "categories": [
+      "谷物食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0122",
+    "name": "御田胭脂米",
+    "categories": [
+      "谷物食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0123",
+    "name": "御酒",
+    "categories": [
+      "酒"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0124",
+    "name": "惠泉酒",
+    "categories": [
+      "现代复原附录分项",
+      "酒"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0125",
+    "name": "戏屏",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0126",
+    "name": "成窑五彩小盖钟",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0127",
+    "name": "扁豆",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0128",
+    "name": "扬州瓜子",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0129",
+    "name": "抢快",
+    "categories": [
+      "饮食娱乐"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0130",
+    "name": "拇战",
+    "categories": [
+      "饮食娱乐"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0131",
+    "name": "拌酸素菜",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0132",
+    "name": "挂面",
+    "categories": [
+      "主食点心",
+      "面食"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0133",
+    "name": "探春、李纨、宝钗用饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0134",
+    "name": "摄丝戗金五彩大盒",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0135",
+    "name": "摄丝盒子",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0136",
+    "name": "斗叶",
+    "categories": [
+      "饮食娱乐"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0137",
+    "name": "斗牌与解九连环",
+    "categories": [
+      "饮食娱乐"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0138",
+    "name": "斝",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0139",
+    "name": "旋子",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0140",
+    "name": "旧年蠲的雨水",
+    "categories": [
+      "茶与饮用水",
+      "饮用水"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0141",
+    "name": "旧窑瓶",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0142",
+    "name": "旧窑茶杯",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0143",
+    "name": "明角灯",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0144",
+    "name": "普洱茶",
+    "categories": [
+      "现代复原附录分项",
+      "茶",
+      "茶与饮用水"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0145",
+    "name": "暢子、帘子",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0146",
+    "name": "暹猪",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0147",
+    "name": "暹罗国的茶",
+    "categories": [
+      "外来食品称谓",
+      "茶与饮用水"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0148",
+    "name": "暹罗猪",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0149",
+    "name": "暹罗鱼",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0150",
+    "name": "曲牌令",
+    "categories": [
+      "饮食娱乐"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0151",
+    "name": "月字流觞",
+    "categories": [
+      "饮食娱乐"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0152",
+    "name": "月饼",
+    "categories": [
+      "主食点心",
+      "糕点"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0153",
+    "name": "朝中大祭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0154",
+    "name": "木樨清露",
+    "categories": [
+      "露与补食",
+      "饮品或补食"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0155",
+    "name": "木瓜",
+    "categories": [
+      "果品"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0156",
+    "name": "未穷尽的美食",
+    "categories": [
+      "研究语境"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0157",
+    "name": "朱橘",
+    "categories": [
+      "果品",
+      "现代复原附录分项",
+      "鲜果"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0158",
+    "name": "杂色粱谷",
+    "categories": [
+      "谷物食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0159",
+    "name": "杂鱼",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0160",
+    "name": "李子",
+    "categories": [
+      "果品"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0161",
+    "name": "李纨、尤氏、宝钗等吃茶面",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0162",
+    "name": "杏",
+    "categories": [
+      "果品",
+      "鲜果"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0163",
+    "name": "杏仁",
+    "categories": [
+      "干果蜜饯"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0164",
+    "name": "杏仁茶",
+    "categories": [
+      "主食点心",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0165",
+    "name": "杏酪粥",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0166",
+    "name": "松子",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0167",
+    "name": "松子穰",
+    "categories": [
+      "干果/食材",
+      "干果蜜饯",
+      "果品"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0168",
+    "name": "松穰鹅油卷",
+    "categories": [
+      "主食点心",
+      "点心",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0169",
+    "name": "果子",
+    "categories": [
+      "食品泛称"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0170",
+    "name": "果子酒",
+    "categories": [
+      "现代复原附录分项",
+      "酒"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0171",
+    "name": "果碟子",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0172",
+    "name": "枣儿粳米粥",
+    "categories": [
+      "主食",
+      "主食点心",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0173",
+    "name": "枣子",
+    "categories": [
+      "果品"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0174",
+    "name": "枣泥山药糕",
+    "categories": [
+      "主食点心",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0175",
+    "name": "枣泥馅山药糕",
+    "categories": [
+      "点心"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0176",
+    "name": "枫露茶",
+    "categories": [
+      "茶",
+      "茶与饮用水"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0177",
+    "name": "柚子",
+    "categories": [
+      "果品",
+      "果品或陈设"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0178",
+    "name": "栗子",
+    "categories": [
+      "果品"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0179",
+    "name": "桂圆汤",
+    "categories": [
+      "现代复原附录分项",
+      "补食汤粥",
+      "饮品或补食"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0180",
+    "name": "桂圆汤和的梨汁",
+    "categories": [
+      "补食汤饮"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0181",
+    "name": "桂花糖蒸新栗粉糕",
+    "categories": [
+      "主食点心",
+      "点心"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0182",
+    "name": "桂花酒",
+    "categories": [
+      "文学措辞释义",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "interpretation_pending",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0183",
+    "name": "桃",
+    "categories": [
+      "果品",
+      "鲜果"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0184",
+    "name": "桃仁",
+    "categories": [
+      "干果蜜饯"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0185",
+    "name": "案",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0186",
+    "name": "桌",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0187",
+    "name": "桑葚",
+    "categories": [
+      "作者由树木诗句推测的果品"
+    ],
+    "decisions": [
+      "reference_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0188",
+    "name": "梅花雪水",
+    "categories": [
+      "茶与饮用水",
+      "饮用水"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0189",
+    "name": "梅花香饼儿",
+    "categories": [
+      "焚香用品"
+    ],
+    "decisions": [
+      "exclude_nonfood"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0190",
+    "name": "梨",
+    "categories": [
+      "现代复原附录分项",
+      "鲜果"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0191",
+    "name": "椅",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0192",
+    "name": "椒油莼齑酱",
+    "categories": [
+      "素菜/佐餐"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0193",
+    "name": "榛子",
+    "categories": [
+      "干果蜜饯",
+      "果品",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0194",
+    "name": "槟榔",
+    "categories": [
+      "嚼品",
+      "果品",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0195",
+    "name": "橄榄",
+    "categories": [
+      "果品",
+      "现代复原附录分项",
+      "鲜果"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0196",
+    "name": "毡帘",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0197",
+    "name": "水晶缸",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0198",
+    "name": "水缸",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0199",
+    "name": "汝窑盘子",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0200",
+    "name": "汝窑美人觚",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0201",
+    "name": "江米",
+    "categories": [
+      "谷物食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0202",
+    "name": "江米粥",
+    "categories": [
+      "主食",
+      "主食点心",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0203",
+    "name": "汤猪",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0204",
+    "name": "沙锅",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0205",
+    "name": "油炸焦骨头",
+    "categories": [
+      "现代复原附录分项",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0206",
+    "name": "油盐炒枸杞芽儿",
+    "categories": [
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0207",
+    "name": "油盐炒豆芽",
+    "categories": [
+      "素菜"
+    ],
+    "decisions": [
+      "disputed"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0208",
+    "name": "油锅",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0209",
+    "name": "法制紫姜",
+    "categories": [
+      "素菜/佐餐"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0210",
+    "name": "洁粉梅花雪片洋糖",
+    "categories": [
+      "调味"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0211",
+    "name": "活鸡",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0212",
+    "name": "活鸭",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0213",
+    "name": "活鹅",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0214",
+    "name": "海参",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0215",
+    "name": "海棠冻石蕉叶杯",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0216",
+    "name": "海灯",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0217",
+    "name": "淡金盘",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0218",
+    "name": "清蒸鸭子",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0219",
+    "name": "湘帘",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0220",
+    "name": "漱口茶",
+    "categories": [
+      "盥沐用品"
+    ],
+    "decisions": [
+      "nonfood_use"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0221",
+    "name": "火盆",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0222",
+    "name": "火肉白菜汤",
+    "categories": [
+      "汤羹",
+      "现代复原附录分项",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0223",
+    "name": "火腿炖肘子",
+    "categories": [
+      "现代复原附录分项",
+      "肉乳菜",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0224",
+    "name": "火腿鲜笋汤",
+    "categories": [
+      "汤羹",
+      "现代复原附录分项",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0225",
+    "name": "灰条菜",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0226",
+    "name": "炖野鸡",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0227",
+    "name": "炖鸡蛋",
+    "categories": [
+      "菜肴汤羹",
+      "蛋类菜"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0228",
+    "name": "炖鹿肉",
+    "categories": [
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0229",
+    "name": "炙鲤",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0230",
+    "name": "炸野鸡",
+    "categories": [
+      "禽肉菜",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0231",
+    "name": "炸鸡骨",
+    "categories": [
+      "禽肉菜"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0232",
+    "name": "炸鹌鹑",
+    "categories": [
+      "现代复原附录分项",
+      "禽肉菜",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0233",
+    "name": "点犀䀉",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0234",
+    "name": "烤羊肉",
+    "categories": [
+      "曹家食单",
+      "现代复原附录分项",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate",
+      "historical_comparison",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0235",
+    "name": "烤羊肉宴",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0236",
+    "name": "烤鹿肉",
+    "categories": [
+      "肉乳菜",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0237",
+    "name": "烧酒",
+    "categories": [
+      "酒"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0238",
+    "name": "烧野鸡",
+    "categories": [
+      "禽肉菜",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0239",
+    "name": "热糕",
+    "categories": [
+      "主食点心",
+      "点心"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0240",
+    "name": "煮猪肉",
+    "categories": [
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0241",
+    "name": "熊掌",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0242",
+    "name": "熬鹅卵",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0243",
+    "name": "燃糠煨笋",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0244",
+    "name": "燕窝",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0245",
+    "name": "燕窝汤",
+    "categories": [
+      "菜肴汤羹",
+      "补食汤粥"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0246",
+    "name": "燕窝粥",
+    "categories": [
+      "主食",
+      "主食点心",
+      "补食汤粥"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0247",
+    "name": "牙牌令",
+    "categories": [
+      "饮食娱乐"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0248",
+    "name": "牙箸",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0249",
+    "name": "牛乳蒸羊羔",
+    "categories": [
+      "乳制食品",
+      "肉乳菜",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0250",
+    "name": "牛奶",
+    "categories": [
+      "饮品或补食"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0251",
+    "name": "牛奶茯苓霜",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0252",
+    "name": "牛舌",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0253",
+    "name": "猪肉干儿",
+    "categories": [
+      "研究释义"
+    ],
+    "decisions": [
+      "reference_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0254",
+    "name": "獐子",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0255",
+    "name": "玉盆",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0256",
+    "name": "玉盘",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0257",
+    "name": "玉缸",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0258",
+    "name": "王夫人用早饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0259",
+    "name": "王夫人端阳宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0260",
+    "name": "王夫人设筵接风",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0261",
+    "name": "王子腾夫人寿诞",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0262",
+    "name": "玛瑙盘",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0263",
+    "name": "玛瑙碗",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0264",
+    "name": "玛瑙碟子",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0265",
+    "name": "玫瑰清露",
+    "categories": [
+      "现代复原附录分项",
+      "露与甜饮",
+      "饮品或补食"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0266",
+    "name": "玻璃大屏、炕屏",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0267",
+    "name": "玻璃炕屏",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0268",
+    "name": "玻璃盆",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0269",
+    "name": "玻璃盏",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0270",
+    "name": "玻璃盘",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0271",
+    "name": "玻璃绣球灯",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0272",
+    "name": "琥珀杯",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0273",
+    "name": "琼酥",
+    "categories": [
+      "主食点心"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0274",
+    "name": "瓜子",
+    "categories": [
+      "小食",
+      "果品"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0275",
+    "name": "瓜蔬饭",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0276",
+    "name": "瓟斝（首字异体待校）",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0277",
+    "name": "甄、贾宝玉共进餐",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0278",
+    "name": "甄士隐、贾雨村中秋小宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0279",
+    "name": "疗妒汤",
+    "categories": [
+      "戏谑药方"
+    ],
+    "decisions": [
+      "exclude_medicine"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0280",
+    "name": "白彩定窑碟",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0281",
+    "name": "白糯",
+    "categories": [
+      "谷物食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0282",
+    "name": "石榴",
+    "categories": [
+      "果品",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0283",
+    "name": "石花鱼",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0284",
+    "name": "石首鱼",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0285",
+    "name": "砂仁",
+    "categories": [
+      "小食",
+      "果品"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0286",
+    "name": "碧粳",
+    "categories": [
+      "谷物食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0287",
+    "name": "碧粳粥",
+    "categories": [
+      "主食",
+      "主食点心",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0288",
+    "name": "碧糯",
+    "categories": [
+      "谷物食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0289",
+    "name": "碧螺春",
+    "categories": [
+      "研究举例或品种推测"
+    ],
+    "decisions": [
+      "reference_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0290",
+    "name": "神仙肉",
+    "categories": [
+      "研究拟配方"
+    ],
+    "decisions": [
+      "reference_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0291",
+    "name": "祭秦钟",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0292",
+    "name": "穗灯",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0293",
+    "name": "竹根大盏",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0294",
+    "name": "竹根套杯",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0295",
+    "name": "竹笋",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0296",
+    "name": "笋",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0297",
+    "name": "笋豆",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0298",
+    "name": "米汤",
+    "categories": [
+      "主食点心"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0299",
+    "name": "粉粳",
+    "categories": [
+      "谷物食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0300",
+    "name": "粥",
+    "categories": [
+      "主食点心",
+      "曹家食单"
+    ],
+    "decisions": [
+      "candidate",
+      "historical_comparison"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0301",
+    "name": "粳米",
+    "categories": [
+      "谷物食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0302",
+    "name": "粽子",
+    "categories": [
+      "主食点心"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0303",
+    "name": "糖腌的玫瑰卤",
+    "categories": [
+      "露与甜饮"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0304",
+    "name": "糖蒸酥酪",
+    "categories": [
+      "主食点心",
+      "乳制食品"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0305",
+    "name": "糟",
+    "categories": [
+      "调味"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0306",
+    "name": "糟鳇鱼",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0307",
+    "name": "糟鹅掌",
+    "categories": [
+      "禽肉菜"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0308",
+    "name": "糟鹅掌鸭信",
+    "categories": [
+      "现代复原附录分项",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0309",
+    "name": "糟鹌鹑",
+    "categories": [
+      "现代复原附录分项",
+      "禽肉菜",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0310",
+    "name": "糟鹌鹑宴",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0311",
+    "name": "素斋宴",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0312",
+    "name": "紫檀围屏",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0313",
+    "name": "紫檀架子大理石的屏风",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0314",
+    "name": "红楼专题宴的设想",
+    "categories": [
+      "现代复原附录"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0315",
+    "name": "红楼宴菜单（乙级）",
+    "categories": [
+      "现代复原附录"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0316",
+    "name": "红楼宴菜单（甲级）",
+    "categories": [
+      "现代复原附录"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0317",
+    "name": "红楼梦学术会议食单",
+    "categories": [
+      "现代复原附录"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0318",
+    "name": "红楼美食的风格",
+    "categories": [
+      "研究语境"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0319",
+    "name": "红烧肉",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0320",
+    "name": "红稻米",
+    "categories": [
+      "谷物食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0321",
+    "name": "红稻米粥",
+    "categories": [
+      "主食",
+      "主食点心",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0322",
+    "name": "红稻饭",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0323",
+    "name": "红菱",
+    "categories": [
+      "果品",
+      "水生果实",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0324",
+    "name": "红鹅",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0325",
+    "name": "纱照屏",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0326",
+    "name": "细米香粥／花色粥／药粥补粥",
+    "categories": [
+      "研究分类术语"
+    ],
+    "decisions": [
+      "reference_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0327",
+    "name": "绍兴酒",
+    "categories": [
+      "现代复原附录分项",
+      "酒"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0328",
+    "name": "绿玉斗",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0329",
+    "name": "绿畦香稻粳米",
+    "categories": [
+      "谷物食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0330",
+    "name": "绿畦香稻粳米饭",
+    "categories": [
+      "主食"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0331",
+    "name": "羊肉叉烧",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0332",
+    "name": "翡翠盘子",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0333",
+    "name": "老君眉",
+    "categories": [
+      "现代复原附录分项",
+      "茶",
+      "茶与饮用水"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0334",
+    "name": "胭脂鹅脯",
+    "categories": [
+      "现代复原附录分项",
+      "禽肉菜",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0335",
+    "name": "腊八粥",
+    "categories": [
+      "主食",
+      "主食点心",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0336",
+    "name": "芒种饯花",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0337",
+    "name": "芦蒿",
+    "categories": [
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0338",
+    "name": "芦雪庵诗宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0339",
+    "name": "花样小面果子",
+    "categories": [
+      "主食点心",
+      "点心"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0340",
+    "name": "花梨木匣子",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0341",
+    "name": "花灯",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0342",
+    "name": "苏州瓜子",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0343",
+    "name": "茄子干",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0344",
+    "name": "茄鲞",
+    "categories": [
+      "荤素混合菜",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0345",
+    "name": "茯苓霜",
+    "categories": [
+      "露与补食",
+      "食疗/滋补品",
+      "饮品或补食"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0346",
+    "name": "茶壶",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0347",
+    "name": "茶杯",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0348",
+    "name": "茶盘",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0349",
+    "name": "茶面子",
+    "categories": [
+      "主食点心",
+      "现代复原附录分项",
+      "面食"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0350",
+    "name": "荔枝",
+    "categories": [
+      "果品",
+      "现代复原附录分项",
+      "鲜果"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0351",
+    "name": "荠菜",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0352",
+    "name": "荣府元宵寒宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0353",
+    "name": "荤炒蒿子秆儿",
+    "categories": [
+      "素菜"
+    ],
+    "decisions": [
+      "disputed"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0354",
+    "name": "荷包鲫鱼",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0355",
+    "name": "莲叶羹",
+    "categories": [
+      "汤羹",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0356",
+    "name": "菊花叶儿桂花蕊煎的绿豆面子",
+    "categories": [
+      "盥沐用品"
+    ],
+    "decisions": [
+      "nonfood_use"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0357",
+    "name": "菊花酒",
+    "categories": [
+      "酒"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0358",
+    "name": "菜箱",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0359",
+    "name": "菰饭鱼羹",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0360",
+    "name": "菱粉糕",
+    "categories": [
+      "主食点心",
+      "点心"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0361",
+    "name": "菱角",
+    "categories": [
+      "水生果实"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0362",
+    "name": "落花生",
+    "categories": [
+      "干果蜜饯"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0363",
+    "name": "葡萄",
+    "categories": [
+      "果品",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0364",
+    "name": "葫芦条儿",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0365",
+    "name": "葵花子",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0366",
+    "name": "蒸芋头",
+    "categories": [
+      "主食点心",
+      "素菜"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0367",
+    "name": "蒸鲋鱼",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0368",
+    "name": "蒸鸡蛋羹",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0369",
+    "name": "薛蟠为伙计饯行",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0370",
+    "name": "薛蟠摆酒慰劳江南来的伙计",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0371",
+    "name": "薛蟠生日宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0372",
+    "name": "薛蟠端阳宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0373",
+    "name": "藕",
+    "categories": [
+      "果品",
+      "水生果实或故事食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0374",
+    "name": "藕粉桂糖糕",
+    "categories": [
+      "点心"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0375",
+    "name": "藕粉桂花糖糕",
+    "categories": [
+      "主食点心"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0376",
+    "name": "虾丸鸡皮汤",
+    "categories": [
+      "汤羹",
+      "现代复原附录分项",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0377",
+    "name": "虾米",
+    "categories": [
+      "调味"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0378",
+    "name": "虾须帘",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0379",
+    "name": "蛏干",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0380",
+    "name": "蜜水儿似的黄酒",
+    "categories": [
+      "现代复原附录分项",
+      "酒"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0381",
+    "name": "蜜饯荔枝",
+    "categories": [
+      "干果蜜饯"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0382",
+    "name": "螃蟹",
+    "categories": [
+      "水产",
+      "菜肴汤羹",
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0383",
+    "name": "螃蟹宴",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0384",
+    "name": "螃蟹小饺儿",
+    "categories": [
+      "主食点心",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0385",
+    "name": "螃蟹馅炸饺子",
+    "categories": [
+      "点心"
+    ],
+    "decisions": [
+      "needs_source_check"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0386",
+    "name": "行酒令",
+    "categories": [
+      "饮食娱乐"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0387",
+    "name": "西洋玫瑰露",
+    "categories": [
+      "外来食品称谓"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0388",
+    "name": "西洋葡萄酒",
+    "categories": [
+      "外来食品称谓",
+      "现代复原附录分项",
+      "酒"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0389",
+    "name": "西洋鸭",
+    "categories": [
+      "外来食品称谓"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0390",
+    "name": "西瓜",
+    "categories": [
+      "果品",
+      "现代复原附录分项",
+      "鲜果"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0391",
+    "name": "觥",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0392",
+    "name": "讲究卫生要筛酒",
+    "categories": [
+      "研究语境"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0393",
+    "name": "诸葛菜",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0394",
+    "name": "豆腐",
+    "categories": [
+      "豆制品"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0395",
+    "name": "豆腐皮包子",
+    "categories": [
+      "主食点心",
+      "添加菜/点心",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0396",
+    "name": "豆荚",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0397",
+    "name": "豇豆",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0398",
+    "name": "賣琏、薛蟠、柳湘莲途中饮酒",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0399",
+    "name": "贵妃宴",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0400",
+    "name": "费母、李纨、贾兰用餐",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0401",
+    "name": "贾府元宵大宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0402",
+    "name": "贾府过年祭宗祀",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0403",
+    "name": "贾府除夕合欢宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0404",
+    "name": "贾政生日宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0405",
+    "name": "贾政留冯紫英吃晚饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0406",
+    "name": "贾敬生日宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0407",
+    "name": "贾母、王夫人用饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0408",
+    "name": "贾母、薛姨妈等用饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0409",
+    "name": "贾母八十寿宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0410",
+    "name": "贾母冥寿",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0411",
+    "name": "贾母消寒会",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0412",
+    "name": "贾母灯谜宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0413",
+    "name": "贾母用饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0414",
+    "name": "贾母风寒后用膳",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0415",
+    "name": "贾环、王仁外书房饮酒",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0416",
+    "name": "贾珍、贾琏与尤氏二、三姐家宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0417",
+    "name": "贾珍中秋夜宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0418",
+    "name": "贾珍等赌博喝酒",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0419",
+    "name": "贾琏、凤姐用饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0420",
+    "name": "贾芹等与女尼吃酒",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0421",
+    "name": "赏海棠宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0422",
+    "name": "赏送果者饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0423",
+    "name": "赖尚荣家宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0424",
+    "name": "车螯",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0425",
+    "name": "软帘",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0426",
+    "name": "进上的新茶",
+    "categories": [
+      "现代复原附录分项",
+      "茶与饮用水"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0427",
+    "name": "酒令助兴添欢乐",
+    "categories": [
+      "研究语境"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0428",
+    "name": "酒幌",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0429",
+    "name": "酒酿清蒸鸭子",
+    "categories": [
+      "现代复原附录分项",
+      "禽肉菜",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0430",
+    "name": "酱",
+    "categories": [
+      "调味"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0431",
+    "name": "酱萝卜炸儿",
+    "categories": [
+      "素菜/佐餐"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0432",
+    "name": "酸梅汤",
+    "categories": [
+      "汤饮",
+      "饮品或补食"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0433",
+    "name": "酸汤",
+    "categories": [
+      "汤饮",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0434",
+    "name": "酸笋鸡皮汤",
+    "categories": [
+      "汤羹",
+      "现代复原附录分项",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0435",
+    "name": "醋",
+    "categories": [
+      "调味"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0436",
+    "name": "醒酒石",
+    "categories": [
+      "非食品"
+    ],
+    "decisions": [
+      "exclude_nonfood"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0437",
+    "name": "野猪",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0438",
+    "name": "野猫",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0439",
+    "name": "野羊",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0440",
+    "name": "野菜",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0441",
+    "name": "野鸡",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0442",
+    "name": "野鸡崽子汤",
+    "categories": [
+      "汤羹",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0443",
+    "name": "野鸡汤",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0444",
+    "name": "野鸡瓜齑",
+    "categories": [
+      "禽肉菜",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0445",
+    "name": "野鸭羹",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0446",
+    "name": "金匙",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0447",
+    "name": "金抢碗",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0448",
+    "name": "金爵",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0449",
+    "name": "金盆",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0450",
+    "name": "金盘",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0451",
+    "name": "金碗",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0452",
+    "name": "金脍",
+    "categories": [
+      "主食点心"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0453",
+    "name": "金钏忌日素斋",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0454",
+    "name": "金镰双星玻璃小扁盒儿",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0455",
+    "name": "金陵瓜子",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0456",
+    "name": "錾金彝",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0457",
+    "name": "银丝挂面",
+    "categories": [
+      "主食"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0458",
+    "name": "银唾痰盒",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0459",
+    "name": "银大碗",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0460",
+    "name": "银杯",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0461",
+    "name": "银爵",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0462",
+    "name": "银盘",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0463",
+    "name": "银碟",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0464",
+    "name": "锦匣子",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0465",
+    "name": "镀金执壶",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0466",
+    "name": "门灯、绰灯",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0467",
+    "name": "阳羡茶",
+    "categories": [
+      "研究举例或品种推测"
+    ],
+    "decisions": [
+      "reference_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0468",
+    "name": "陈皮梨汤",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0469",
+    "name": "雨村、子兴村肆中沽饮",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0470",
+    "name": "青灯",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0471",
+    "name": "青盐",
+    "categories": [
+      "盥沐用品"
+    ],
+    "decisions": [
+      "nonfood_use"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0472",
+    "name": "青羊",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0473",
+    "name": "面果子",
+    "categories": [
+      "食品泛称"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0474",
+    "name": "面筋",
+    "categories": [
+      "菜肴汤羹",
+      "面制品"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0475",
+    "name": "面茶",
+    "categories": [
+      "主食点心",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0476",
+    "name": "风灯",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0477",
+    "name": "风炉",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0478",
+    "name": "风腌果子狸",
+    "categories": [
+      "现代复原附录分项",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0479",
+    "name": "风鸡",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0480",
+    "name": "风鸭",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0481",
+    "name": "风鹅",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0482",
+    "name": "飘马儿",
+    "categories": [
+      "菜肴或研究释名"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0483",
+    "name": "食具概述",
+    "categories": [
+      "研究语境"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0484",
+    "name": "饮食娱乐",
+    "categories": [
+      "研究语境"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0485",
+    "name": "饮食活动一览",
+    "categories": [
+      "研究语境"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0486",
+    "name": "饽饽",
+    "categories": [
+      "食品泛称"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0487",
+    "name": "香肥皂",
+    "categories": [
+      "盥沐用品"
+    ],
+    "decisions": [
+      "exclude_nonfood"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0488",
+    "name": "香芋",
+    "categories": [
+      "水生果实或故事食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0489",
+    "name": "香茶",
+    "categories": [
+      "现代复原附录分项",
+      "茶与饮用水"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0490",
+    "name": "香茶饼",
+    "categories": [
+      "研究举例或品种推测"
+    ],
+    "decisions": [
+      "reference_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0491",
+    "name": "香薷粥",
+    "categories": [
+      "主食"
+    ],
+    "decisions": [
+      "needs_source_check"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0492",
+    "name": "香薷饮解暑汤",
+    "categories": [
+      "食药边界"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0493",
+    "name": "香雪润津丹",
+    "categories": [
+      "食药边界"
+    ],
+    "decisions": [
+      "boundary_pending"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0494",
+    "name": "骨牌",
+    "categories": [
+      "饮食娱乐"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0495",
+    "name": "鲈鱼脍",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0496",
+    "name": "鲊鸡",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0497",
+    "name": "鲜藕",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0498",
+    "name": "鲟鳇鱼",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0499",
+    "name": "鸡头",
+    "categories": [
+      "果品",
+      "水生果实或故事食材",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0500",
+    "name": "鸡油卷儿",
+    "categories": [
+      "主食点心",
+      "点心",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0501",
+    "name": "鸡爪",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0502",
+    "name": "鸡瓜子",
+    "categories": [
+      "菜肴或研究释名"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0503",
+    "name": "鸡蛋",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0504",
+    "name": "鸡髓笋",
+    "categories": [
+      "现代复原附录分项",
+      "菜肴或研究释名",
+      "菜肴汤羹"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0505",
+    "name": "鸭子肉粥",
+    "categories": [
+      "主食",
+      "主食点心",
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0506",
+    "name": "鸽子蛋",
+    "categories": [
+      "现代复原附录分项",
+      "菜肴汤羹",
+      "蛋类菜"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0507",
+    "name": "鸽蛋",
+    "categories": [
+      "食材"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0508",
+    "name": "鸾凤屏",
+    "categories": [
+      "杂具/陈设"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0509",
+    "name": "鹿筋",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0510",
+    "name": "鹿肉叉烧",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0511",
+    "name": "鹿肉宴",
+    "categories": [
+      "现代复原附录分项"
+    ],
+    "decisions": [
+      "modern_reconstruction"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0512",
+    "name": "鹿舌",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0513",
+    "name": "麅子",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0514",
+    "name": "麻油",
+    "categories": [
+      "调味"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0515",
+    "name": "黄杨根套杯",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0516",
+    "name": "黄橙",
+    "categories": [
+      "果品",
+      "现代复原附录分项",
+      "鲜果"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0517",
+    "name": "黄酒",
+    "categories": [
+      "酒"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0518",
+    "name": "黑漆茶盘",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0519",
+    "name": "黛玉七月祭瓜果",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0520",
+    "name": "黛玉初进贾府用晚饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0521",
+    "name": "黛玉初进贾府用果茶",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0522",
+    "name": "黛玉晚饭",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0523",
+    "name": "黛玉生日宴",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0524",
+    "name": "黛玉病餐",
+    "categories": [
+      "饮食活动"
+    ],
+    "decisions": [
+      "context_only"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0525",
+    "name": "鼎",
+    "categories": [
+      "器具"
+    ],
+    "decisions": [
+      "utensil_candidate"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0526",
+    "name": "齑菜",
+    "categories": [
+      "曹家食单"
+    ],
+    "decisions": [
+      "historical_comparison"
+    ],
+    "novel_candidate": false
+  },
+  {
+    "id": "entity-0527",
+    "name": "龙井茶",
+    "categories": [
+      "现代复原附录分项",
+      "茶",
+      "茶与饮用水"
+    ],
+    "decisions": [
+      "candidate",
+      "modern_reconstruction"
+    ],
+    "novel_candidate": true
+  },
+  {
+    "id": "entity-0528",
+    "name": "龙猪",
+    "categories": [
+      "账单原料"
+    ],
+    "decisions": [
+      "candidate"
+    ],
+    "novel_candidate": true
+  }
+]

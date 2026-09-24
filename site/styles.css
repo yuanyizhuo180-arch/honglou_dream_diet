@@ -1,0 +1,29 @@
+:root { color-scheme: light; font-family: "Noto Serif CJK SC", "Songti SC", serif; color: #29231d; background: #f8f3e8; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.hero { background: #402f26; color: #fff8eb; padding: 4.5rem max(1.5rem, calc((100vw - 1080px)/2)); }
+.hero h1 { margin: .2rem 0; font-size: clamp(2.4rem, 6vw, 4.5rem); letter-spacing: .12em; }
+.hero p { max-width: 42rem; line-height: 1.8; }
+.eyebrow { color: #dfbd80; letter-spacing: .16em; font-size: .82rem; }
+main { max-width: 1080px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+.controls { display: grid; grid-template-columns: 2fr 1fr; gap: 1rem; align-items: end; padding: 1.2rem; background: #fffaf0; border: 1px solid #e3d4bd; }
+label { display: grid; gap: .45rem; font-weight: 600; }
+input, select { padding: .72rem; border: 1px solid #bca98c; border-radius: .25rem; font: inherit; background: white; }
+#status { grid-column: 1 / -1; margin: 0; color: #6f604f; }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, .8fr); gap: 1.5rem; margin-top: 1.5rem; }
+.count { color: #6f604f; }
+.results { display: grid; gap: .7rem; }
+.result { appearance: none; width: 100%; text-align: left; padding: 1rem; border: 1px solid #dfd0b8; background: #fffdf8; cursor: pointer; font: inherit; }
+.result:hover, .result:focus { outline: 3px solid #d8a547; outline-offset: 2px; }
+.result h2 { margin: 0 0 .4rem; font-size: 1.2rem; }
+.tags { display: flex; flex-wrap: wrap; gap: .35rem; }
+.tag { border-radius: 99px; background: #eee1c7; padding: .2rem .5rem; font-size: .82rem; }
+.detail { padding: 1.2rem; align-self: start; background: #fcf6e8; border-left: 4px solid #b27a35; line-height: 1.7; }
+.detail h2 { margin-top: 0; }
+.detail dl { display: grid; grid-template-columns: 5.5rem 1fr; gap: .5rem .75rem; }
+.detail dt { color: #6f604f; }
+.detail dd { margin: 0; }
+.source { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid #ddcdb4; }
+.boundary { color: #734a29; font-size: .92rem; }
+footer { padding: 2rem 1.5rem; text-align: center; color: #776958; border-top: 1px solid #dfd0b8; }
+@media (max-width: 760px) { .controls, .layout { grid-template-columns: 1fr; } }

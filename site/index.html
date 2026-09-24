@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>红楼梦食资料库</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <p class="eyebrow">两书来源资料库</p>
+      <h1>红楼梦食</h1>
+      <p>检索食品、饮品、原料、器具与宴席记录，追溯其来源页与作者说明。</p>
+    </header>
+    <main>
+      <section class="controls" aria-label="检索资料库">
+        <label>检索<input id="search" type="search" placeholder="输入名称、别名或分类" autocomplete="off"></label>
+        <label>分类<select id="category"><option value="">全部分类</option></select></label>
+        <p id="status" role="status">正在载入资料…</p>
+      </section>
+      <section class="layout">
+        <div>
+          <p id="count" class="count"></p>
+          <div id="results" class="results" aria-live="polite"></div>
+        </div>
+        <aside id="detail" class="detail" aria-live="polite">
+          <p>选择一个条目，查看来源和作者说明。</p>
+          <p class="boundary">资料中的历史、物种、药效、配方、版本与原著解释均标为“来源作者说法”。</p>
+        </aside>
+      </section>
+    </main>
+    <footer>资料直接依据：《红楼梦饮食谱》《红楼梦美食大观》</footer>
+    <script src="app.js"></script>
+  </body>
+</html>

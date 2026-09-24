@@ -1,0 +1,272 @@
+[
+  {
+    "entity_id": "entity-0175",
+    "alias": "枣泥馅的山药糕",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0238",
+    "alias": "野鸡",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0230",
+    "alias": "再炸上两块",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0231",
+    "alias": "焦骨头",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0232",
+    "alias": "鹌鹑",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0307",
+    "alias": "鹅掌鸭信",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0227",
+    "alias": "鸡蛋",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0236",
+    "alias": "鹿肉",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0172",
+    "alias": "枣儿熬的粳米粥",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0339",
+    "alias": "面果子",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0355",
+    "alias": "小荷叶儿小莲蓬儿的汤",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0366",
+    "alias": "芋头",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0192",
+    "alias": "椒油纯齑酱",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0395",
+    "alias": "豆腐皮的包子",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0121",
+    "alias": "御田粳米",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0106",
+    "alias": "面",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0148",
+    "alias": "暹猪",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0212",
+    "alias": "活鸡，鸭，鹅",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0480",
+    "alias": "风鸡，鸭，鹅",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0213",
+    "alias": "活鸡，鸭，鹅",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0481",
+    "alias": "风鸡，鸭，鹅",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0507",
+    "alias": "鸽子蛋",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0343",
+    "alias": "茄子",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0295",
+    "alias": "笋菜",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0502",
+    "alias": "炒的鸡瓜",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0482",
+    "alias": "浇头",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0210",
+    "alias": "洁粉梅片雪花洋糖",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0054",
+    "alias": "合欢花浸的酒",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0357",
+    "alias": "酒未敌腥还用菊",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0188",
+    "alias": "梅花上的雪",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0193",
+    "alias": "榛",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0184",
+    "alias": "桃，杏瓤",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0118",
+    "alias": "建莲红枣儿汤",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0147",
+    "alias": "暹罗",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0356",
+    "alias": "菊花叶儿桂花蕊熏的绿豆面子",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0487",
+    "alias": "香皂",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0174",
+    "alias": "枣泥馅的山药糕",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0375",
+    "alias": "藕粉桂糖糕",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0384",
+    "alias": "小饺儿",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0308",
+    "alias": "鹅掌鸭信",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0026",
+    "alias": "酸酸的",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0228",
+    "alias": "鹿肉",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0234",
+    "alias": "羊肉",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0240",
+    "alias": "猪肉",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0380",
+    "alias": "蜜水儿似的",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0182",
+    "alias": "桂醑",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0448",
+    "alias": "金、银爵",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0515",
+    "alias": "黄杨根",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0276",
+    "alias": "瓟斝",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0276",
+    "alias": "瓟",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0293",
+    "alias": "蟠虬整雕竹根",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0171",
+    "alias": "果碟",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0057",
+    "alias": "四楞象牙镶金",
+    "kind": "原文定位词"
+  },
+  {
+    "entity_id": "entity-0141",
+    "alias": "旧窑",
+    "kind": "原文定位词"
+  }
+]
