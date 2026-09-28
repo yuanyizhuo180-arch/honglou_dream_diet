@@ -8,6 +8,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 EXPORTER = ROOT / "dreamfood-db" / "scripts" / "export_catalog.py"
+sys.path.insert(0, str(ROOT / "dreamfood-db" / "scripts"))
+import import_supabase
 
 
 class CatalogExportTests(unittest.TestCase):
@@ -50,6 +52,10 @@ class CatalogExportTests(unittest.TestCase):
         self.assertEqual(0, result.returncode, result.stderr)
         self.assertIn("source_books", result.stdout)
         self.assertIn("occurrences", result.stdout)
+
+    def test_importer_rejects_non_ascii_secret_key_before_request(self):
+        with self.assertRaisesRegex(ValueError, "ASCII"):
+            import_supabase.validate_api_key("sb_secret_误输入")
 
 
 if __name__ == "__main__":

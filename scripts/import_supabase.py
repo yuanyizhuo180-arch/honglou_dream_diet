@@ -23,13 +23,19 @@ def read_records(data_dir, filename):
     return json.loads((data_dir / f"{filename}.json").read_text(encoding="utf-8"))
 
 
+def validate_api_key(key):
+    if not key.isascii():
+        raise ValueError("SUPABASE_SECRET_KEY must contain ASCII characters only.")
+    if not (key.startswith("sb_secret_") or key.startswith("eyJ")):
+        raise ValueError("Use a Supabase Secret key (sb_secret_...) or legacy service_role key.")
+
+
 def post_batch(url, key, table, records):
     request = Request(
         f"{url.rstrip('/')}/rest/v1/{table}",
         data=json.dumps(records, ensure_ascii=False).encode("utf-8"),
         headers={
             "apikey": key,
-            "Authorization": f"Bearer {key}",
             "Content-Type": "application/json",
             "Prefer": "resolution=merge-duplicates,return=minimal",
         },
@@ -53,16 +59,17 @@ def main():
         return
 
     url = os.environ.get("SUPABASE_URL")
-    key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
+    key = os.environ.get("SUPABASE_SECRET_KEY") or os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
     if not url or not key:
-        raise SystemExit("Set SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY before importing.")
+        raise SystemExit("Set SUPABASE_URL and SUPABASE_SECRET_KEY before importing.")
 
     try:
+        validate_api_key(key)
         for label, table, records in datasets:
             for start in range(0, len(records), 100):
                 post_batch(url, key, table, records[start:start + 100])
             print(f"Imported {label}")
-    except (HTTPError, URLError, RuntimeError) as error:
+    except (HTTPError, URLError, RuntimeError, ValueError) as error:
         raise SystemExit(f"Import failed: {error}") from error
 
 
