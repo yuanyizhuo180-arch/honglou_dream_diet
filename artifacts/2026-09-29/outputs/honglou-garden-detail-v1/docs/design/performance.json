@@ -1,0 +1,61 @@
+{
+  "desktop": {
+    "buildMs": 182.30000001192093,
+    "drawCalls": 42,
+    "triangles": 676549,
+    "geometries": 29,
+    "textures": 14,
+    "instances": {
+      "box": 2174,
+      "cyl": 9984,
+      "rock1": 85,
+      "rock0": 83,
+      "rock2": 74,
+      "sphere": 50,
+      "torus": 30,
+      "leaf": 9625,
+      "petal": 2100
+    },
+    "batches": 32,
+    "pixelRatio": 1,
+    "shadowSize": 2048,
+    "viewport": [
+      1075,
+      900
+    ],
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "sample": {
+      "frames": 60,
+      "meanRenderMs": 5.516666665673256,
+      "maxRenderMs": 8.299999952316284,
+      "meanFrameIntervalMs": 8.3457627118644,
+      "measuredFps": 119.82128350934208
+    }
+  },
+  "mobile": {
+    "buildMs": 227.30000001192093,
+    "drawCalls": 42,
+    "triangles": 597805,
+    "geometries": 29,
+    "textures": 14,
+    "instances": {
+      "box": 2174,
+      "cyl": 9984,
+      "rock1": 85,
+      "rock0": 83,
+      "rock2": 74,
+      "sphere": 50,
+      "torus": 30,
+      "leaf": 4813,
+      "petal": 1050
+    },
+    "batches": 32,
+    "pixelRatio": 1,
+    "shadowSize": 1024,
+    "viewport": [
+      390,
+      844
+    ],
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+  }
+}

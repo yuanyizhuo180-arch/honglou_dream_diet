@@ -1,0 +1,9 @@
+{
+  "name": "红楼小灶 · 大观园",
+  "status": "official",
+  "route": "/garden",
+  "rendering": "2d-illustration",
+  "panelWidth": 213,
+  "zoomRange": [0.7, 3],
+  "version": "garden-official-v1"
+}

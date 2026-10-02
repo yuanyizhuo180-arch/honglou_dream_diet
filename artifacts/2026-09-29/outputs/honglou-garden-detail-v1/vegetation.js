@@ -1,0 +1,23 @@
+import * as T from './vendor/three.module.js';
+import {seeded} from './geometry.js';
+export function createPlants(b){const rand=seeded(935);b.register('petal',new T.SphereGeometry(1,5,3));
+ function leaves(x,y,z,count=25,radius=2,flower=false){for(let k=0;k<count;k++){const a=rand()*Math.PI*2,t=Math.acos(2*rand()-1),r=Math.pow(rand(),.35)*radius;const p=[x+Math.cos(a)*Math.sin(t)*r,y+Math.cos(t)*r*.65,z+Math.sin(a)*Math.sin(t)*r];const mat=rand()>.6?'leafLight':rand()>.4?'leaf':'leafDark';const s=.55+rand()*.6;b.instance('leaf',mat,p,[s*.7,s,s*1.4],[rand()*2.8,a,rand()*2]);if(flower&&k%4===0){for(let j=0;j<5;j++)b.instance('petal',flower==='pink'?'pink':'flower',[p[0]+Math.cos(j*1.25)*.16,p[1]+.15,p[2]+Math.sin(j*1.25)*.16],[.13,.07,.16],[0,0,0])}}}
+ function tree(x,z,h=8,flower=false,lean=.7){const base=[x,.2,z],top=[x+lean,h*.66,z-.3];b.rod(base,top,.23,'darkwood');for(let k=0;k<7;k++){const a=k*2.4+rand();const start=[x+lean*.5,2.5+k*.4,z];const end=[top[0]+Math.cos(a)*(1.5+k*.3),h*.65+rand()*h*.3,top[2]+Math.sin(a)*(1.7+k*.18)];b.rod(start,end,.075,'wood');const tips=[];for(let j=0;j<3;j++){const q=[end[0]+Math.cos(a+j*1.6)*1.4,end[1]+.6+rand(),end[2]+Math.sin(a+j*1.6)*1.4];b.rod(end,q,.03,'wood');tips.push(q)}for(const tip of tips)leaves(...tip,18,1.5,flower)}}
+ function bamboo(x,z,h=12){for(let k=0;k<3;k++){const xx=x+(rand()-.5)*1.3,zz=z+(rand()-.5)*1.3,height=h*(.75+rand()*.3),lean=(rand()-.5)*1.1;b.rod([xx,.1,zz],[xx+lean,height,zz+.5],.07,'bamboostem');for(let y=1;y<height;y+=1.1){b.instance('cyl','bamboo',[xx+lean*y/height,y,zz+.5*y/height],[.16,.08,.16]);if(y>height*.5){for(const side of [-1,1]){const a=y*1.8;const end=[xx+Math.cos(a)*side*1.8,y+.5,zz+Math.sin(a)*side*1.8];b.rod([xx,y,zz],end,.018,'bamboostem');for(let i=0;i<5;i++){const f=i/5;b.instance('leaf',i%2?'leaf':'leafLight',[xx+(end[0]-xx)*f,y+.4,zz+(end[2]-zz)*f],[.25,.4,.9],[.7,a+side*.5+i*.22,-.5])}}}}}}
+ function banana(x,z){b.rod([x,.1,z],[x,4.8,z],.22,'bamboostem');for(let i=0;i<8;i++){const a=i*2.4;const tip=[x+Math.cos(a)*2.7,4.6+Math.sin(i)*1.2,z+Math.sin(a)*2.7];b.rod([x,3.3,z],tip,.03,'bamboo');b.instance('leaf',i%3?'leafLight':'leaf',[x+Math.cos(a)*.35,3.8,z+Math.sin(a)*.35],[1.5,2.1,4.4],[Math.PI/2-.25,a,Math.sin(i)*.2])}}
+ function bush(x,z,r=1.1,h=.7){for(let i=0;i<22;i++){const a=rand()*6.28,rr=rand()*r;b.instance('leaf',i%2?'herb':'leaf',[x+Math.cos(a)*rr,h*rand(),z+Math.sin(a)*rr],[.5,.6,.8],[rand()*2,a,rand()])}}
+ function willow(x,z){b.rod([x,.1,z],[x+.7,7,z-.4],.28,'wood');for(let i=0;i<10;i++){const a=i*2.4,r=2.8+rand()*1.5;const start=[x+.6,6.8,z-.4],end=[x+Math.cos(a)*r,7.2+rand(),z+Math.sin(a)*r];b.rod(start,end,.06,'wood');leaves(...end,20,1.5);for(let j=0;j<3;j++){const ex=end[0]+(rand()-.5)*1.2,ez=end[2]+(rand()-.5)*1.2,drop=3+rand()*2;b.curve([end,[ex,end[1]-.8,ez],[ex+.25,end[1]-drop,ez+.3]],'bamboo',.014);for(let k=0;k<9;k++)b.instance('leaf',k%2?'leafLight':'leaf',[ex+.15*Math.sin(k),end[1]-k*drop/9,ez],[.14,.25,.53],[.7,a,k*.3])}}}
+ function vine(x,z,h=4){const pts=[];for(let i=0;i<9;i++){pts.push([x+Math.sin(i*.8)*.5,i*h/8+.1,z+Math.cos(i*.8)*.4]);b.instance('leaf','herb',pts.at(-1),[.35,.4,.65],[rand(),i,rand()])}b.curve(pts,'bamboo',.025)}
+ return {tree,bamboo,banana,bush,willow,vine,rand};
+}
+export function buildVegetation(b,data){const p=createPlants(b);
+ for(const n of data.nodes){const [x,z]=n.position;
+ if(n.id==='xiaoxiang'){for(const [dx,dz] of [[-18,-13],[-16,-7],[-17,-1],[-13,4],[-11,-12],[-15,9],[-11,7],[9,-10],[12,-7],[12,3]])p.bamboo(x+dx,z+dz,10+p.rand()*3);for(const [dx,dz] of [[-10,-17],[-6,-16],[-2,-16],[-15,-18],[-18,-7],[-18,1],[-15,6],[-13,10]])p.bamboo(x+dx,z+dz,11+p.rand()*3);for(const [dx,dz] of [[-7,7],[2,8],[10,7]])p.bush(x+dx,z+dz,1.4,.4)}
+ if(n.id==='yihong'){p.banana(x-10,z+8);p.banana(x-8,z+10);p.banana(x+8,z+10);p.tree(x+11,z+6,7.5,'pink');p.bush(x-8,z-9,1.3)}
+ if(n.id==='hengwu'){for(let i=0;i<11;i++)p.bush(x-12+i*2.2,z+8+(i%3),.75,.75);for(const [dx,dz] of [[-9,8],[-4,10],[5,10],[10,7],[-11,-2]])p.vine(x+dx,z+dz,3+p.rand()*3)}
+ if(n.id==='qiushuang'){p.tree(x+10,z+10,7);p.bush(x-10,z+8,1.2);p.bush(x-10,z-8,1.5)}
+ if(n.id==='daoxiang'){p.tree(x-13,z-6,6.4,'white');p.tree(x+13,z-4,5.8,'white');for(let i=0;i<4;i++)for(let j=0;j<4;j++)p.bush(x-9+i*4,z+9+j,.25,.3)}
+ }
+ p.tree(8,-14,5.8);p.bush(7,-14,2.4,.5);p.bush(-6,34,1.6,.7);p.willow(31,-6);p.willow(57,17);p.tree(-62,26,7.5);p.tree(-60,49,8);p.tree(-16,-54,8);p.tree(26,-52,8);p.tree(65,-35,6.5);p.tree(61,53,6.3);p.tree(-17,42,5);p.tree(18,32,4.5,'pink');
+ for(const [x,z] of [[-58,-28],[-61,7],[-20,-32],[20,-28],[15,52],[37,57],[-46,52],[-20,59],[64,12],[8,17],[25,16]])p.bush(x,z,.7,.6);
+}

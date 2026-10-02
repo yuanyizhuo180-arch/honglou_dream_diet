@@ -1,0 +1,43 @@
+{
+  "desktop": {
+    "zoom": 1,
+    "center": [
+      0.5,
+      0.5
+    ],
+    "selected": null,
+    "width": 1404,
+    "height": 694,
+    "image": [
+      1562,
+      1007
+    ],
+    "panelWidth": 0
+  },
+  "mobile": {
+    "zoom": 2.142857142857143,
+    "center": [
+      0.5,
+      0.5
+    ],
+    "selected": null,
+    "width": 390,
+    "height": 583,
+    "image": [
+      1562,
+      1007
+    ],
+    "panelWidth": 0
+  },
+  "errors": [],
+  "verified": [
+    "six labels",
+    "panel 213px",
+    "zoom-pan-reset",
+    "drag no selection",
+    "all six panels",
+    "Esc",
+    "mobile no overflow",
+    "pinch"
+  ]
+}

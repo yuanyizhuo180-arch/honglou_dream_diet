@@ -1,0 +1,19 @@
+import * as T from './vendor/three.module.js';
+import {seeded} from './geometry.js';
+export function createMaterials(){const textures={};const rand=seeded(672);
+ function texture(kind){const c=document.createElement('canvas');c.width=c.height=512;const ctx=c.getContext('2d');
+ const bg={wall:'#e5dfd0',wood:'#94704b',stone:'#b4ad9b',ground:'#d9cfba',path:'#dcd2bb',roof:'#596064',thatch:'#bca477',mud:'#bea77e',water:'#e7eeeb'}[kind]||'#ddd';ctx.fillStyle=bg;ctx.fillRect(0,0,512,512);
+ for(let i=0;i<8000;i++){const v=rand();ctx.fillStyle=v>.5?'rgba(255,255,240,.07)':'rgba(60,50,30,.06)';ctx.fillRect(rand()*512,rand()*512,1+rand()*2,1+rand()*2)}
+ if(kind==='ground'||kind==='path'||kind==='stone'){const bw=kind==='stone'?128:96,bh=kind==='stone'?64:64;for(let j=0;j<10;j++)for(let i=-1;i<8;i++){const x=i*bw+(j%2)*bw/2,y=j*bh;ctx.fillStyle=`rgba(${rand()>.5?'255,251,228':'105,99,83'},${.04+rand()*.09})`;ctx.fillRect(x+1,y+1,bw-2,bh-2);ctx.strokeStyle='rgba(90,78,59,.32)';ctx.lineWidth=1.5;ctx.strokeRect(x+.5,y+.5,bw-1,bh-1)}}
+ if(kind==='wood'||kind==='thatch'){for(let i=0;i<140;i++){const y=rand()*512;ctx.strokeStyle=`rgba(${i%2?'50,32,15':'236,207,151'},${.08+rand()*.16})`;ctx.lineWidth=.4+rand();ctx.beginPath();ctx.moveTo(0,y);for(let x=0;x<=512;x+=20)ctx.lineTo(x,y+Math.sin(x*.035+i)*2);ctx.stroke()}}
+ if(kind==='roof'){for(let x=0;x<512;x+=16){const g=ctx.createLinearGradient(x,0,x+16,0);g.addColorStop(0,'#353e43');g.addColorStop(.45,'#747a78');g.addColorStop(1,'#485159');ctx.fillStyle=g;ctx.fillRect(x,0,16,512);for(let y=0;y<512;y+=34){ctx.strokeStyle='#38434a';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(x,y+4);ctx.quadraticCurveTo(x+8,y,x+16,y+4);ctx.stroke()}}}
+ if(kind==='water'){for(let i=0;i<200;i++){ctx.strokeStyle='rgba(90,127,123,.11)';ctx.beginPath();const x=rand()*512,y=rand()*512;ctx.ellipse(x,y,5+rand()*18,1+rand()*2,rand(),0,Math.PI*2);ctx.stroke()}}
+ const tex=new T.CanvasTexture(c);tex.colorSpace=T.SRGBColorSpace;tex.wrapS=tex.wrapT=T.RepeatWrapping;tex.anisotropy=4;textures[kind]=tex;return tex;
+ }
+ const colors={wall:'#fffaf0',wood:'#bea680',darkwood:'#98835f',stone:'#dedbd4',ground:'#fbf7ef',path:'#fffcf4',roof:'#d3d3ce',bamboo:'#61765b',bamboostem:'#858658',leaf:'#657b54',leafLight:'#80946b',leafDark:'#435f43',herb:'#899865',pink:'#d9b4b3',flower:'#efd8cc',mud:'#cbb488',thatch:'#e0d5b0',field:'#8f815c',moss:'#78816b',glass:'#526c66',water:'#7faaa7',sand:'#cfbea0'};
+ const mats={};for(const [k,v] of Object.entries(colors)){const m=new T.MeshStandardMaterial({color:v,roughness:k==='glass'?.5:.92,side:k.startsWith('leaf')?T.DoubleSide:T.FrontSide});m.name=k;if(['wall','wood','darkwood','stone','ground','path','roof','mud','thatch'].includes(k)){m.map=texture(k==='darkwood'?'wood':k);m.bumpMap=m.map;m.bumpScale=k==='roof'?.07:k==='wood'?.055:.025}mats[k]=m}
+ mats.ground.map.repeat.set(12,11);mats.path.map.repeat.set(1,1);mats.wall.map.repeat.set(2,2);mats.roof.map.repeat.set(3,2);mats.stone.map.repeat.set(2,2);mats.water=new T.MeshPhysicalMaterial({name:'water',color:colors.water,roughness:.32,metalness:.17,clearcoat:.35,clearcoatRoughness:.3,bumpMap:texture('water'),bumpScale:.035});mats.water.bumpMap.repeat.set(7,7);
+ mats.leaf.side=mats.leafLight.side=mats.leafDark.side=T.DoubleSide;
+ const sky=document.createElement('canvas');sky.width=512;sky.height=256;const sc=sky.getContext('2d'),grad=sc.createLinearGradient(0,0,0,256);grad.addColorStop(0,'#d7e3e3');grad.addColorStop(.55,'#faf4e8');grad.addColorStop(1,'#c4b494');sc.fillStyle=grad;sc.fillRect(0,0,512,256);const sun=sc.createRadialGradient(180,75,1,180,75,55);sun.addColorStop(0,'#ffffff');sun.addColorStop(1,'rgba(255,255,255,0)');sc.fillStyle=sun;sc.fillRect(0,0,512,256);const env=new T.CanvasTexture(sky);env.mapping=T.EquirectangularReflectionMapping;env.colorSpace=T.SRGBColorSpace;textures.environment=env;mats.water.envMapIntensity=.75;
+ return {materials:mats,textures,environment:env};
+}
