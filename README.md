@@ -47,3 +47,7 @@ python3 dreamfood-db/scripts/import_supabase.py
 ## 日常编辑
 
 在 Supabase Table Editor 编辑 `catalog_entity`、`entity_alias` 和 `source_occurrence`。需要从现有候选资料重新生成时，先运行导出器，再重新运行导入器；导入器使用 upsert，可重复执行。
+
+## 大观园地图页
+
+正式二维插画地图位于 [`garden/`](garden/)，包含本地底图、六景交互与设计 QA 文档。
