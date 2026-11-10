@@ -55,3 +55,17 @@ python3 dreamfood-db/scripts/import_supabase.py
 ## 完整工作资料
 
 `artifacts/2026-09-29/` 保留本次地图工作的完整可分享资料：全部地图版本、设计文档、预览图、浏览器测试、实现脚本与执行记录。它不包含本机同步镜像、Git 元数据、运行缓存或任何本机凭据。
+
+## 统一网站（2026-11-10）
+
+当前正式网站：https://honglou-mengshi.pages.dev/
+
+完整可部署文件位于 [`unified-site/`](unified-site/)，涵盖首页、二维大观园、最新食典和六章剧情／游戏／食笺。Cloudflare 发布目录选择 `unified-site`，无需构建命令。原 `site/`、`garden/` 与研究资料保留。
+
+手机端固定顺时针旋转 90°，阅读滑动与触控修复仅在手机环境生效；电脑保留原版显示。茄鲞 A5 显示“你把茄鲞搛些餵他。”。
+
+本地预览：`python3 -m http.server 5183 --directory unified-site`。手机与电脑处于同一局域网时访问电脑的局域网 IP 与此端口。显式手机入口为 `/mobile/?page=%2F`。
+
+手机辅助构建来源保存在 `integration-work/mobile-source/`。从仓库根目录执行 `python3 -c "import sys; from pathlib import Path; sys.path.insert(0, 'integration-work'); from mobile_adjustments import apply; apply(Path('unified-site'))"` 可重新同步辅助文件。发布文件清单见 [`docs/releases/2026-11-10-manifest.json`](docs/releases/2026-11-10-manifest.json)。
+
+本次不改变原数据库导入流程和 GitHub Pages 工作流。Cloudflare 与 GitHub 仓库是分别更新的，不配置自动联动。
