@@ -1,0 +1,61 @@
+body.is-cooking{overflow:hidden}
+body.is-cooking .page-shell{max-width:none;width:100%;height:100dvh;margin:0;padding:0}
+body.is-cooking .topbar,body.is-cooking .title-row,body.is-cooking .game-topline,body.is-cooking .scene-notes,body.is-cooking .play-caption,body.is-cooking .play-bottom,body.is-cooking .step-list{display:none}
+body.is-cooking .game-shell{position:fixed;inset:0;width:100vw;height:100vh;height:100dvh;border:0;box-shadow:none;overflow:hidden;isolation:isolate;background:#ae7950}
+body.is-cooking .game-main,body.is-cooking .play-area,body.is-cooking .tabletop,body.is-cooking .playfield{display:block;width:100%;height:100%;min-height:0}
+body.is-cooking .game-main{position:absolute;inset:0}
+body.is-cooking .tabletop{position:relative;margin:0;border:0;box-shadow:none;overflow:hidden;background:#a96e47 url("assets/eggplant-cut/table-empty-v1.png") center / cover no-repeat;touch-action:none}
+body.is-cooking .playfield{position:relative;touch-action:none}
+.kitchen-hud[hidden],.kitchen-pause-panel[hidden]{display:none!important}
+.kitchen-hud{position:absolute;inset:0;z-index:10;pointer-events:none;color:#7d2c25;font-family:"Songti SC","Noto Serif CJK SC",serif}
+.kitchen-hud button{pointer-events:auto;min-height:44px;padding:8px 14px;border:1px solid #a35c41;background:#f4e4c9;color:#7d2c25;box-shadow:0 3px 10px #3a201b55}
+.kitchen-hud button:hover{background:#fff2d9}
+.kitchen-hud button:focus-visible{outline:3px solid #f4c37a;outline-offset:3px}
+.kitchen-hud-top{position:absolute;left:2.4%;right:2.4%;top:3%;display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+.kitchen-title,.kitchen-top-right>span,.kitchen-instruction{background:#f2e1c9ef;border:1px solid #a35c41;box-shadow:0 5px 16px #33211655}
+.kitchen-title{display:flex;align-items:center;gap:12px;padding:10px 16px;border-left:5px solid #953e30}
+.kitchen-title small{font-size:13px;letter-spacing:.08em}.kitchen-title strong{font-size:25px;font-weight:500;letter-spacing:.15em}
+.kitchen-top-right{display:flex;align-items:center;gap:8px}.kitchen-top-right>span{padding:10px 15px;min-height:44px;white-space:nowrap}
+.kitchen-hud-bottom{position:absolute;left:2.4%;right:2.4%;bottom:3%;display:flex;justify-content:flex-start}
+.kitchen-instruction{max-width:min(550px,65vw);padding:12px 18px 13px}
+.kitchen-instruction strong{font-size:14px;letter-spacing:.12em}.kitchen-instruction p{font-size:clamp(17px,1.6vw,25px);line-height:1.35;margin:5px 0}.kitchen-instruction span{font-size:14px}
+body.is-eggplant-cut .kitchen-hud-bottom,body.is-eggplant-peel .kitchen-hud-bottom,body.is-eggplant-pot .kitchen-hud-bottom{bottom:max(12px,env(safe-area-inset-bottom))}
+body.is-eggplant-cut .kitchen-instruction,body.is-eggplant-peel .kitchen-instruction,body.is-eggplant-pot .kitchen-instruction{padding:10px 18px}
+body.is-eggplant-cut .kitchen-instruction strong,body.is-eggplant-cut .kitchen-instruction span,body.is-eggplant-peel .kitchen-instruction strong,body.is-eggplant-peel .kitchen-instruction span,body.is-eggplant-pot .kitchen-instruction strong,body.is-eggplant-pot .kitchen-instruction span{display:none}
+body.is-eggplant-cut .kitchen-instruction p,body.is-eggplant-peel .kitchen-instruction p,body.is-eggplant-pot .kitchen-instruction p{margin:0}
+.kitchen-pause-panel{position:absolute;inset:0;pointer-events:auto;display:flex;align-items:center;justify-content:center;flex-direction:column;background:#1e150fc7;color:#fff3dc;text-align:center}
+.kitchen-pause-panel strong{font-size:36px;font-weight:400}.kitchen-pause-panel p{margin:8px 0 20px}
+.cut-scene{position:absolute;inset:0;overflow:hidden}
+.peel-scene{position:absolute;inset:0;overflow:hidden}
+.eggplant-canvas{display:block;width:100%;height:100%;touch-action:none;user-select:none;cursor:crosshair}
+.peel-hint{transition:opacity 180ms ease;filter:drop-shadow(0 3px 3px #49304f88)}
+.peel-hint-halo,.peel-hint-wave{fill:none;stroke-linecap:round;stroke-linejoin:round}
+.peel-hint-halo{stroke:#fff5db;stroke-width:22}.peel-hint-wave{stroke:#2166d2;stroke-width:12}
+.peel-hint-finger{fill:#f7dfbd;stroke:#714a37;stroke-width:8;stroke-linejoin:round}
+.peel-hint-detail{fill:none;stroke:#b88263;stroke-width:4;stroke-linecap:round}
+.cut-arrow{opacity:0;transition:opacity 130ms ease;pointer-events:none;filter:drop-shadow(0 3px 3px #49304f88)}
+.cut-arrow-halo,.cut-arrow-blue{fill:none;stroke-linecap:round;stroke-linejoin:round}
+.cut-arrow-halo{stroke:#f8f7ff;stroke-width:19}
+.cut-arrow-blue{stroke:#1756db;stroke-width:12}
+.pot-idle-hint{pointer-events:none;filter:drop-shadow(0 0 10px #fff8dd)}
+.eggplant-finish-image[hidden],.eggplant-finish-labels[hidden],.eggplant-finish-panel[hidden]{display:none!important}
+.eggplant-finish-image{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;z-index:5;pointer-events:none;transition:opacity 650ms ease;background:#a96e47 url("assets/eggplant-cut/table-empty-v1.png") center/cover no-repeat}
+.eggplant-finish-labels{position:absolute;inset:0;width:100%;height:100%;opacity:0;z-index:6;pointer-events:none;transition:opacity 650ms ease}
+body.is-eggplant-finished .eggplant-finish-image,body.is-eggplant-finished .eggplant-finish-labels{opacity:1}
+body.is-eggplant-finished .kitchen-title,body.is-eggplant-finished .kitchen-top-right,body.is-eggplant-finished .kitchen-hud-bottom{display:none}
+.eggplant-finish-panel{position:absolute;right:max(2.4%,16px);bottom:max(3%,16px);z-index:12;max-width:min(410px,44vw);padding:18px 20px;background:#f2e1c9f5;border:1px solid #a35c41;box-shadow:0 8px 22px #33211666;pointer-events:auto;text-align:center}
+.eggplant-finish-panel h2{margin:0 0 14px;font-size:clamp(21px,2.3vw,34px);font-weight:500;letter-spacing:.08em}
+.eggplant-finish-actions{display:flex;gap:12px;justify-content:center}
+.eggplant-finish-actions button{min-width:128px;min-height:46px;border:1px solid #9b503e;background:#fff5df;color:#7d2c25;box-shadow:0 3px 8px #3a201b44}
+.eggplant-finish-actions button:last-child{background:#8a4438;color:#fff6e6}
+.eggplant-finish-actions button:focus:not(:focus-visible){outline:none}
+.eggplant-finish-actions button:focus-visible{outline:3px solid #f4c37a;outline-offset:3px}
+body.is-eggplant-epilogue .game-shell{display:none}
+.cook-controls [role="button"]:focus,.cook-controls [role="slider"]:focus,.pot-piece-hit:focus{outline:none}
+.cook-controls [role="button"]:focus-visible,.cook-controls [role="slider"]:focus-visible,.pot-piece-hit:focus-visible{outline:none;filter:drop-shadow(0 0 5px #f9da8c) drop-shadow(0 0 10px #a35c41)}
+body.is-eggplant-pot .pot-idle-hint[opacity="1"]{animation:pot-hint-pulse 1.15s ease-in-out infinite alternate}
+@keyframes pot-hint-pulse{from{opacity:.4}to{opacity:1}}
+@media(max-width:850px){.kitchen-hud-top{left:12px;right:12px;top:12px}.kitchen-title{padding:7px 9px;gap:5px}.kitchen-title small{font-size:10px}.kitchen-title strong{font-size:18px}.kitchen-top-right{gap:4px}.kitchen-top-right>span{font-size:12px;padding:8px}.kitchen-hud button{font-size:13px;padding:5px 8px}.kitchen-hud-bottom{left:12px;right:12px;bottom:12px}.kitchen-instruction{max-width:65%;padding:7px 10px}.kitchen-instruction p{font-size:15px}.kitchen-instruction span{font-size:11px}}
+@media(max-width:600px){.kitchen-hud-top{flex-wrap:wrap}.kitchen-top-right{margin-left:auto}.kitchen-title{flex-direction:column;align-items:flex-start;gap:0}.kitchen-title small{font-size:9px}.kitchen-instruction{max-width:68%}.kitchen-top-right>span{font-size:11px}}
+@media(max-width:700px){.eggplant-finish-panel{max-width:none;left:12px;right:12px;bottom:12px;padding:10px 12px}.eggplant-finish-panel h2{font-size:20px;margin-bottom:8px}.eggplant-finish-actions button{min-width:0;flex:1;min-height:44px}}
+@media(prefers-reduced-motion:reduce){.cut-arrow,.peel-hint,.eggplant-finish-image,.eggplant-finish-labels{transition:none}body.is-eggplant-pot .pot-idle-hint[opacity="1"]{animation:none}}
