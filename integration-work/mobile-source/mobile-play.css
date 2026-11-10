@@ -1,0 +1,77 @@
+.rotate-notice[hidden]{display:none!important}
+.rotate-notice{position:fixed;inset:0;z-index:2147483000;display:grid;place-items:center;padding:24px;background:#f3ead9;color:#713e33;font-family:"Songti SC","Noto Serif CJK SC",serif;text-align:center}
+.rotate-notice>div{max-width:340px;padding:30px 24px;border:3px double #b99c70;border-radius:16px;background:#fff8e9}
+.rotate-notice span{font-size:64px;color:#a78353}.rotate-notice h2{font-size:26px}.rotate-notice p{font-size:18px;line-height:1.8}.rotate-notice a{display:inline-block;padding:10px 16px;color:inherit;border:1px solid #a78353;border-radius:6px;text-decoration:none}
+@media(max-width:1024px) and (max-height:1024px){
+ body[data-mobile-kind=catch]{overflow:hidden;display:grid;place-items:center;background:#493025}
+ body[data-mobile-kind=catch] .game{position:fixed;left:50%;top:50%;width:1200px;height:675px;margin:0;flex:none;transform:translate(-50%,-50%) scale(var(--play-scale,1));transform-origin:center; background-size:cover}
+ body[data-mobile-kind=catch] .game-column{width:980px;height:675px}
+ body[data-mobile-kind=catch] .side-shade{width:110px}
+ body[data-mobile-kind=catch] .game-header{top:12px;left:2.5%;right:2.5%;padding:10px 16px}
+ body[data-mobile-kind=catch] .game-header .heading-row{flex-wrap:nowrap;gap:12px}
+ body[data-mobile-kind=catch] .game-header .heading-row>div:first-child{flex:1 1 auto;width:auto}
+ body[data-mobile-kind=catch] .game-header h1{font-size:28px;line-height:1.25;margin:3px 0}
+ body[data-mobile-kind=catch] .eyebrow{font-size:14px}
+ body[data-mobile-kind=catch] .game-header .header-actions{gap:10px}
+ body[data-mobile-kind=catch] .game-header .header-actions>a,body[data-mobile-kind=catch] .game-header .header-actions>button{height:54px;min-width:86px;width:auto;font-size:21px;padding:8px 14px}
+ body[data-mobile-kind=catch] .order-caption{margin:5px 0 8px;align-items:center;font-size:17px;gap:10px}
+ body[data-mobile-kind=catch] .order-caption strong{font-size:20px}
+ body[data-mobile-kind=catch] .mistakes{font-size:28px}
+ body[data-mobile-kind=catch] .goals{grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+ body[data-mobile-kind=catch] .goal{min-height:64px;padding:5px 8px;gap:6px}
+ body[data-mobile-kind=catch] .goal img{width:46px;height:46px}
+ body[data-mobile-kind=catch] .goal span,body[data-mobile-kind=catch] .goal span.item-name{font-size:17px}
+ body[data-mobile-kind=catch] .goal strong{font-size:18px}
+ body[data-mobile-kind=catch] .goal .kind{left:60px;font-size:12px}
+ body[data-mobile-kind=catch] .play-zone{bottom:120px}
+ body[data-mobile-kind=catch] .catch-zone{height:120px}
+ body[data-mobile-kind=catch] .catch-plate{width:178px;height:126px;top:-54px}
+ body[data-mobile-kind=catch] .control-hint{font-size:18px;bottom:16px}
+ body[data-mobile-kind=catch] .status{font-size:19px;bottom:72px}
+ body[data-mobile-kind=catch] .game-column{touch-action:none}
+ body[data-mobile-kind=catch] .modal-card{width:620px;max-height:620px;overflow:auto;padding:28px}
+ body[data-mobile-kind=catch] .modal-card h2{font-size:34px}
+ body[data-mobile-kind=catch] .modal-card p{font-size:24px;line-height:1.6;margin-bottom:16px}
+ body[data-mobile-kind=catch] .modal-card small{font-size:17px;margin-top:16px}
+ body[data-mobile-kind=catch] .modal-actions button,body[data-mobile-kind=catch] .modal-actions a{font-size:24px;min-height:60px}
+}
+@media(max-width:1024px) and (orientation:landscape) and (max-height:600px){
+ body[data-mobile-kind=story]{--story-text-size:16px;--story-text-leading:1.5}
+ body[data-mobile-kind=story] .story-preview,body[data-mobile-kind=story] .story,body[data-mobile-kind=story] #stage{height:100dvh;width:100%;margin:0;aspect-ratio:auto}
+ body[data-mobile-kind=story] .background{background-size:cover}
+ body[data-mobile-kind=story] .story-toolbar{top:max(6px,env(safe-area-inset-top));left:max(8px,env(safe-area-inset-left));right:150px;gap:8px}
+ body[data-mobile-kind=story] .story-toolbar .site-return{font-size:13px;min-height:32px;padding:6px 9px}
+ body[data-mobile-kind=story] .story-toolbar .story-source{font-size:11px!important;padding:5px 8px!important;line-height:1.4!important}
+ body[data-mobile-kind=story] #scene-title,body[data-mobile-kind=story] .page-label{top:8px;right:max(10px,env(safe-area-inset-right));font-size:11px;max-width:125px}
+ body[data-mobile-kind=story] #stage #dialogue{position:absolute!important;left:3%!important;right:3%!important;bottom:max(10px,env(safe-area-inset-bottom))!important;top:auto!important;width:auto!important;min-height:80px!important;max-height:43dvh;padding:18px 22px 20px!important;overflow:visible}
+ body[data-mobile-kind=story] #stage #dialogue #line{max-height:calc(43dvh - 38px);overflow-y:auto;overscroll-behavior:contain;padding-right:12px!important}
+ body[data-mobile-kind=story] #stage #dialogue #speaker{font-size:17px!important;min-width:90px;top:-28px!important;line-height:1.25!important}
+ body[data-mobile-kind=story] #stage .cta:not([hidden]),body[data-mobile-kind=story] #stage .food-note-entry:not([hidden]),body[data-mobile-kind=story] #stage.story-stage:not(.a0) .scene-cta:not([hidden]){position:fixed!important;bottom:calc(var(--story-dialogue-height,90px) + 24px)!important;top:auto!important;right:4%!important;left:auto!important;width:auto!important;height:auto!important;min-height:32px!important;padding:6px 12px!important;font-size:15px!important;transform:none!important;z-index:40}
+ body[data-mobile-kind=story] .intro-content{padding:45px 6% 12px!important;overflow:auto;max-height:100dvh}
+ body[data-mobile-kind=story] .intro-content h2{font-size:25px!important;margin:6px 0!important}
+ body[data-mobile-kind=story] .intro-content p{font-size:16px!important;line-height:1.5!important;margin:8px auto!important}
+ body[data-mobile-kind=story] .intro-advance{font-size:17px!important;padding:7px 22px!important}
+ body[data-mobile-kind=cabinet] .game{height:100dvh;min-height:0;padding:5px max(8px,env(safe-area-inset-left));gap:4px}
+ body[data-mobile-kind=cabinet] .hud{flex:none;min-height:46px;padding:4px 10px;gap:8px}
+ body[data-mobile-kind=cabinet] .hud strong{font-size:18px}.hud small{font-size:11px}
+ body[data-mobile-kind=cabinet] .hud h1{font-size:20px;white-space:nowrap}
+ body[data-mobile-kind=cabinet] .hud-right{gap:8px;font-size:13px;flex-wrap:nowrap}
+ body[data-mobile-kind=cabinet] .hud button,body[data-mobile-kind=cabinet] .exit-button{padding:5px 12px;font-size:14px;min-height:32px}
+ body[data-mobile-kind=cabinet] .cabinet-wrap{flex:1;min-height:0}
+ body[data-mobile-kind=cabinet] .cabinet{width:min(90vw,calc((100dvh - 116px)*1.6));aspect-ratio:1.6;border-width:4px;padding:5px;gap:3px}
+ body[data-mobile-kind=cabinet] .shelf{padding:2px;border-width:2px}
+ body[data-mobile-kind=cabinet] .footer{flex:none;min-height:44px;padding:4px 10px;display:flex;gap:10px}
+ body[data-mobile-kind=cabinet] .progress{font-size:13px;width:50%}.track{margin-top:4px;height:6px}
+ body[data-mobile-kind=cabinet] .tools{margin:0;gap:8px}
+ body[data-mobile-kind=cabinet] .tools button{padding:5px 12px;font-size:14px;min-height:32px}
+ body[data-mobile-kind=cabinet] .status{display:none}
+ body[data-mobile-kind=cabinet] .card{max-width:620px;max-height:95dvh;overflow:auto;padding:16px 22px;margin:8px}
+ body[data-mobile-kind=cabinet] .card h2{margin:0 0 8px}.card p{margin:8px 0}
+ body[data-mobile-kind=kitchen] .tabletop{height:calc(100dvh - 78px);min-height:240px}
+ body[data-mobile-kind=kitchen] .playfield{min-height:0;height:100%}
+ body[data-mobile-kind=kitchen] .kitchen-heading{font-size:16px}
+}
+@media(max-width:1024px){
+ body[data-mobile-kind=note]{overflow-x:hidden}
+ body[data-mobile-kind=note] .site-return{position:relative;display:inline-flex;margin:8px;top:auto;left:auto}
+}

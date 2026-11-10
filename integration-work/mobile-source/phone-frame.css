@@ -1,0 +1,111 @@
+/* Loaded exclusively inside the phone frame. The desktop document never loads it. */
+html.phone-frame body[data-mobile-kind=catch] .game{background-size:cover}
+html.phone-frame body[data-mobile-kind=catch] .game-column{width:calc(100% - 36px)}
+html.phone-frame body[data-mobile-kind=catch] .side-shade{width:18px}
+html.phone-frame body[data-mobile-kind=catch] .game-header{top:10px;padding:8px 13px}
+html.phone-frame body[data-mobile-kind=catch] .game-header h1{font-size:25px}
+html.phone-frame body[data-mobile-kind=catch] .play-zone{bottom:120px}
+html.phone-frame body[data-mobile-kind=catch] .game-column{touch-action:none}
+html.phone-frame body[data-mobile-kind=catch] .control-hint{font-size:15px}
+html.phone-frame body[data-mobile-kind=catch] .modal-card{max-height:500px;overflow:auto;padding:22px 28px}
+html.phone-frame body[data-mobile-kind=catch] .modal-card h2{font-size:28px;margin:6px 0 10px}
+html.phone-frame body[data-mobile-kind=catch] .modal-card p{font-size:19px;line-height:1.6;margin-bottom:16px}
+html.phone-frame body[data-mobile-kind=story]{--story-text-size:22px;--story-text-leading:1.6}
+html.phone-frame body[data-mobile-kind=story] .background{background-size:cover}
+html.phone-frame body[data-mobile-kind=story] #stage #dialogue{max-height:42vh;padding:22px 4% 24px!important}
+html.phone-frame body[data-mobile-kind=story] #stage #line{max-height:calc(42vh - 50px);overflow-y:auto;overscroll-behavior:contain}
+html.phone-frame body[data-mobile-kind=story] .intro-content{max-height:100vh;overflow:auto}
+html.phone-frame body[data-mobile-kind=note]{overflow-x:hidden}
+html.phone-frame body[data-mobile-kind=note] .site-return{position:relative;display:inline-flex;top:auto;left:auto;margin:8px}
+html.phone-frame body[data-mobile-kind=catalog]{overflow-x:hidden}
+html.phone-frame body[data-mobile-kind=catalog] .site-return{left:auto;right:12px;font-size:17px}
+html.phone-frame body[data-mobile-kind=cabinet] .game{height:100vh;min-height:0;padding:7px 12px;gap:6px}
+html.phone-frame body[data-mobile-kind=cabinet] .hud{min-height:62px;padding:7px 14px}
+html.phone-frame body[data-mobile-kind=cabinet] .cabinet{width:min(94vw,calc((100vh - 160px)*1.6))}
+html.phone-frame body[data-mobile-kind=cabinet] .footer{min-height:56px}
+html.phone-frame body[data-mobile-kind=cabinet] .status{display:none}
+/* Fill the rotated content viewport; preserve artwork proportions. */
+html.phone-frame body[data-mobile-kind=home] .home{display:block;width:100vw;height:100dvh;min-height:0;overflow:hidden}
+html.phone-frame body[data-mobile-kind=home] .stage{width:100%;height:100%;aspect-ratio:auto;overflow:hidden}
+html.phone-frame body[data-mobile-kind=home] .art{position:absolute;inset:0;width:100%;height:100%;background-image:url('/play/assets/home-banquet-user.png');background-size:cover;background-position:center}
+html.phone-frame body[data-mobile-kind=home] .navigation{position:absolute;inset:0 auto 0 0;width:38%;min-height:0;padding:18px 22px;justify-content:center;background:transparent}
+html.phone-frame body[data-mobile-kind=home] .intro{position:static;margin:0 0 10px;font-size:12px}
+html.phone-frame body[data-mobile-kind=home] .title-mark{font-size:clamp(44px,7vw,70px);margin:0 0 12px}
+html.phone-frame body[data-mobile-kind=home] .subhead{font-size:15px;line-height:1.5;margin:0 0 14px}
+html.phone-frame body[data-mobile-kind=home] nav a{font-size:19px;min-height:40px}
+html.phone-frame body[data-mobile-kind=story] .story-preview,html.phone-frame body[data-mobile-kind=story] #stage{width:100vw;height:100dvh;aspect-ratio:auto;margin:0}
+@media(max-width:640px){
+ html.phone-frame body[data-mobile-kind=home] .art{background-image:url('/play/assets/home-banquet-v3-mobile.png');background-position:center top}
+ html.phone-frame body[data-mobile-kind=home] .navigation{inset:auto 0 0;width:100%;padding:16px 22px;background:#f3e8d4ed}
+ html.phone-frame body[data-mobile-kind=home] .title-mark{font-size:48px;margin:0 0 8px}
+ html.phone-frame body[data-mobile-kind=home] .subhead{margin-bottom:8px}
+ html.phone-frame body[data-mobile-kind=home] .intro{margin-bottom:6px}
+ html.phone-frame body[data-mobile-kind=story]{--story-text-size:18px}
+ html.phone-frame body[data-mobile-kind=catch] .modal-card{width:90vw;padding:20px;max-height:90dvh}
+ html.phone-frame body[data-mobile-kind=cabinet] .hud{padding:6px;gap:6px}
+ html.phone-frame body[data-mobile-kind=cabinet] .hud h1{font-size:14px}
+ html.phone-frame body[data-mobile-kind=cabinet] .hud-right{gap:5px}
+ html.phone-frame body[data-mobile-kind=cabinet] .cabinet{width:min(94vw,calc((100vh - 205px)*.74))}
+}
+/* The game world scales uniformly; short rotated viewports keep a usable lane. */
+html.phone-frame body[data-mobile-kind=catch] .game{position:fixed;left:0;top:0;width:var(--catch-world-width,100vw);height:var(--catch-world-height,100dvh);transform:scale(var(--catch-world-scale,1));transform-origin:top left}
+html.phone-frame body[data-mobile-kind=catch] .game-column{width:100%;height:100%;border:0}
+html.phone-frame body[data-mobile-kind=catch] .side-shade{width:0}
+html.phone-frame body[data-mobile-kind=catch] .game-header{top:10px;left:2%;right:2%;padding:6px 12px}
+html.phone-frame body[data-mobile-kind=catch] .heading-row{flex-wrap:nowrap;gap:12px}
+html.phone-frame body[data-mobile-kind=catch] .heading-row>div:first-child{width:auto;flex:1 1 auto}
+html.phone-frame body[data-mobile-kind=catch] .heading-row h1{font-size:23px;line-height:1.2;margin:1px 0}
+html.phone-frame body[data-mobile-kind=catch] .header-actions{gap:8px}
+html.phone-frame body[data-mobile-kind=catch] .header-actions a,html.phone-frame body[data-mobile-kind=catch] .header-actions button{height:40px;min-height:40px;font-size:16px;padding:6px 12px}
+html.phone-frame body[data-mobile-kind=catch] .eyebrow{font-size:12px}
+html.phone-frame body[data-mobile-kind=catch] .order-caption{font-size:13px;margin:3px 0 5px;align-items:center}
+html.phone-frame body[data-mobile-kind=catch] .order-caption strong{font-size:16px}
+html.phone-frame body[data-mobile-kind=catch] .goals{grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}
+html.phone-frame body[data-mobile-kind=catch] .goal{min-height:45px;padding:3px 6px;gap:5px}
+html.phone-frame body[data-mobile-kind=catch] .goal img{width:33px;height:33px}
+html.phone-frame body[data-mobile-kind=catch] .goal span,html.phone-frame body[data-mobile-kind=catch] .goal span.item-name{font-size:14px}
+html.phone-frame body[data-mobile-kind=catch] .goal strong{font-size:15px}
+html.phone-frame body[data-mobile-kind=catch] .goal .kind{left:45px;font-size:10px;bottom:2px}
+html.phone-frame body[data-mobile-kind=catch] .play-zone{bottom:90px}
+html.phone-frame body[data-mobile-kind=catch] .catch-zone{height:90px}
+html.phone-frame body[data-mobile-kind=catch] .catch-plate{width:178px;height:126px;top:-54px}
+html.phone-frame body[data-mobile-kind=catch] .status{bottom:55px;font-size:16px}
+html.phone-frame body[data-mobile-kind=catch] .control-hint{bottom:8px;font-size:14px}
+html.phone-frame body[data-mobile-kind=catch] .modal-card{width:min(680px,calc(var(--catch-world-width,960px) - 40px));max-height:calc(var(--catch-world-height,540px) - 40px)}
+@media(max-width:640px){
+ html.phone-frame body[data-mobile-kind=catch] .heading-row{flex-wrap:wrap}
+ html.phone-frame body[data-mobile-kind=catch] .heading-row>div:first-child{flex:1 0 100%}
+ html.phone-frame body[data-mobile-kind=catch] .heading-row h1{font-size:calc(22px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .eyebrow{font-size:calc(11px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .header-actions a,html.phone-frame body[data-mobile-kind=catch] .header-actions button{font-size:calc(14px / var(--catch-world-scale,1));height:calc(36px / var(--catch-world-scale,1));min-width:calc(60px / var(--catch-world-scale,1));padding:calc(5px / var(--catch-world-scale,1)) calc(10px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .order-caption{font-size:calc(12px / var(--catch-world-scale,1));gap:calc(6px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .order-caption strong{font-size:calc(14px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .mistakes{font-size:calc(22px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .goals{grid-template-columns:repeat(2,minmax(0,1fr))}
+ html.phone-frame body[data-mobile-kind=catch] .goal{min-height:calc(48px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .goal img{width:calc(35px / var(--catch-world-scale,1));height:calc(35px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .goal span,html.phone-frame body[data-mobile-kind=catch] .goal span.item-name{font-size:calc(13px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .goal strong{font-size:calc(14px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .goal .kind{left:calc(44px / var(--catch-world-scale,1));font-size:calc(10px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .catch-zone{height:calc(76px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .play-zone{bottom:calc(76px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .control-hint{font-size:calc(12px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .status{font-size:calc(13px / var(--catch-world-scale,1));bottom:calc(50px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .modal-card h2{font-size:calc(25px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .modal-card p{font-size:calc(17px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .modal-card small{font-size:calc(11px / var(--catch-world-scale,1))}
+ html.phone-frame body[data-mobile-kind=catch] .modal-actions button,html.phone-frame body[data-mobile-kind=catch] .modal-actions a{font-size:calc(18px / var(--catch-world-scale,1));min-height:calc(42px / var(--catch-world-scale,1))}
+}
+
+/* Short rotated viewports scroll the document rather than clipping inner lists. */
+html.phone-frame body[data-mobile-kind=catalog] .entry-list,html.phone-frame body[data-mobile-kind=catalog] .detail-scroll{max-height:none;overflow:visible}
+
+/* Reading gestures are handled in the rotated iframe, not the clipped outer host. */
+html.phone-frame.phone-reading,html.phone-frame.phone-reading body{touch-action:pinch-zoom;scroll-behavior:auto!important;overscroll-behavior:contain}
+html.phone-frame.phone-reading-dragging,html.phone-frame.phone-reading-dragging *{user-select:none!important;-webkit-user-select:none!important;cursor:grabbing}
+/* Suppress touch selection/tap paint in catch games; keyboard focus stays visible. */
+html.phone-frame body[data-mobile-kind=catch] .game,html.phone-frame body[data-mobile-kind=catch] .game *{-webkit-tap-highlight-color:transparent}
+html.phone-frame body[data-mobile-kind=catch] .goals,html.phone-frame body[data-mobile-kind=catch] .drops,html.phone-frame body[data-mobile-kind=catch] .play-zone,html.phone-frame body[data-mobile-kind=catch] .catch-zone{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+html.phone-frame.phone-touch-input body[data-mobile-kind=catch] button:focus,html.phone-frame.phone-touch-input body[data-mobile-kind=catch] a:focus{outline:none}
+
+html.phone-frame.phone-reading img{-webkit-user-drag:none;-webkit-touch-callout:none}
