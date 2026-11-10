@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="糯米粉">
+<g stroke="#5b7081" stroke-width="4" stroke-linejoin="round">
+<path d="M17 67q3 43 47 47 44-4 47-47Z" fill="#eef1e9"/>
+<ellipse cx="64" cy="67" rx="49" ry="18" fill="#f8f5e9"/>
+<path d="M30 65q6-22 34-28 28 6 34 28-7 13-34 13-27 0-34-13Z" fill="#fffdf3" stroke="#d9d6c9"/>
+<path d="M24 82q39 20 80 0M35 96q29 14 58 0" fill="none" stroke="#7f9daf" stroke-width="3"/>
+<path d="M59 88q-9 7 0 13 7-4 4-8 5 4 9 7 9-8-1-13" fill="#7f9daf" stroke="none"/>
+<path d="M50 55q12-7 26 0" fill="none" stroke="#e0dccc" stroke-width="3" stroke-linecap="round"/>
+</g></svg>
