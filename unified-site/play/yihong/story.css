@@ -1,0 +1,107 @@
+.story-preview .tabs{align-items:center;flex-wrap:wrap}
+.story-preview .tabs a{font:inherit;color:#e8d6bd;background:#3c4740;border:1px solid #8d8870;border-radius:3px;padding:9px 17px;letter-spacing:.06em;text-decoration:none;white-space:nowrap}
+.story-preview .tabs a:hover,.story-preview .tabs a.active{background:#964b3e;border-color:#d5a07b;color:#fff4d8}
+.story-preview a:focus-visible,.story-preview button:focus-visible{outline:3px solid #f4c37a;outline-offset:3px}
+.scene-separator{color:#d5b995;padding:0 10px;border-left:1px solid #a59678;border-right:1px solid #a59678;font-size:13px;letter-spacing:.12em}
+.story-stage .portrait[hidden]{display:none!important}
+.story-stage .portrait{height:80%;bottom:-2%}
+.story-stage .background{transition:opacity 480ms ease}
+.story-stage .dialogue,.story-stage .scene-kicker{transition:opacity 160ms ease}
+.story-stage.is-dialogue-fading .dialogue,.story-stage.is-dialogue-fading .scene-kicker,.story-stage.is-transitioning .dialogue,.story-stage.is-transitioning .scene-kicker{opacity:0}
+.story-stage.is-transitioning .portrait{opacity:0}
+.transition-portrait{position:absolute;z-index:2;object-fit:contain;object-position:bottom;pointer-events:none}
+.story-stage.a0 .scene-kicker,.story-stage.a0 .dialogue{display:none}
+.intro-content[hidden]{display:none}
+.intro-content{position:absolute;z-index:3;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3.5%}
+.intro-title{width:30%;padding:1.5% 3%;text-align:center;font:inherit;letter-spacing:.16em;color:#fff1d7;background:#913e31;border:2px solid #d5a779;box-shadow:0 7px 15px #3b211b66}
+.intro-title h2{margin:0;font-family:inherit;font-size:clamp(28px,3.2vw,52px);font-weight:normal;letter-spacing:inherit}
+.intro-overview{width:62%;padding:2.8% 3.5% 2%;font-family:inherit;font-size:clamp(20px,2.2vw,36px);line-height:1.7;letter-spacing:.06em;color:#7d2c25;background:linear-gradient(110deg,#f2e2c5f5,#f6e9d0f5 45%,#e9d5b4f4);border:2px solid #a35c41;outline:1px solid #e8c49a;outline-offset:-11px;box-shadow:0 8px 22px #33211666,0 0 0 6px #f4e3c8b0;text-shadow:0 1px #fff6e5}
+.intro-overview p{margin:0}
+.intro-overview .intro-source{margin-top:1.3em;text-align:right;font-size:.65em;letter-spacing:.05em}
+.story-stage.a1 .portrait.wang{width:42%;left:1%}
+.story-stage.a1 .portrait.jia{width:52%;left:60%}
+.story-stage.a2 .portrait.liu{width:42%;left:1%}
+.story-stage.a2 .portrait.wang{width:42%;right:1%}
+.story-stage.a3 .portrait.liu,.story-stage.a4 .portrait.liu{width:52%;left:-10%}
+.story-stage.a5 .portrait.liu,.story-stage.b1 .portrait.liu,.story-stage.b2 .portrait.liu{width:42%;left:1%}
+.story-stage.a5 .portrait.wang,.story-stage.b1 .portrait.wang,.story-stage.b2 .portrait.wang{width:42%;right:1%}
+.story-stage.b3 .portrait.liu{width:42%;left:1%}
+.story-stage.b3 .portrait.wang{width:42%;right:1%}
+.story-stage.a1 .nameplate,.story-stage.a2 .nameplate,.story-stage.b3 .nameplate{left:72%}
+.story-stage.a3 .nameplate,.story-stage.a4 .nameplate,.story-stage.a5 .nameplate,.story-stage.b1 .nameplate{left:29%}
+.story-stage.a6 .banquet{opacity:0}
+.story-stage.a6 .cooking{opacity:1}
+.story-stage.a6 .wash{background:linear-gradient(180deg,#f5e4cd00 0%,#4c322756 100%)}
+.story-stage.a6 .scene-corner{color:#774b32;background:#f5e7c49c;padding:8px 7px}
+.story-stage .dialogue[role="button"]{cursor:pointer}
+.story-stage .dialogue:focus-visible{outline:3px solid #f4c37a;outline-offset:5px}
+.scene-cta[hidden]{display:none}
+.scene-cta{position:absolute;z-index:5;right:5%;bottom:26%;font:inherit;font-size:clamp(15px,1.3vw,22px);letter-spacing:.16em;color:#fff1d7;background:#913e31;border:2px solid #d5a779;padding:12px 22px;box-shadow:0 7px 15px #3b211b66}
+.story-stage.b3 .scene-cta{left:50%;top:45%;right:auto;bottom:auto;transform:translate(-50%,-50%);width:25%;height:12%;padding:0;font-size:clamp(22px,2.4vw,38px)}
+.scene-cta:disabled{cursor:not-allowed;opacity:.85}
+.story-actions{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:15px;color:#e4d2b8;font-size:15px;line-height:1.5}
+.story-actions a,.back-link{color:#f0c99c;text-decoration:underline;text-underline-offset:3px}
+.story-preview .draft-note{max-width:90ch}
+@media(max-width:800px){.story-preview .tabs{flex-wrap:nowrap;overflow:auto}.story-preview .tabs a{padding:8px;font-size:12px}.story-actions{font-size:12px}.scene-cta{padding:7px 10px;font-size:12px}}
+@media(prefers-reduced-motion:reduce){.story-stage .advance{animation:none}.story-stage .background,.story-stage .dialogue,.story-stage .scene-kicker{transition:none}}
+
+/* Chapter-specific scene art and fixed portrait geometry. */
+.story-stage .background{transition:none}
+.story-stage .yihong{background-image:url("assets/yihong-bg.png")}
+.story-stage .workbench{background-image:url("assets/cake-workbench.png");opacity:0}
+.story-stage.a6 .yihong{opacity:0}
+.story-stage.a6 .workbench{opacity:1}
+.story-stage.a6 .wash{background:linear-gradient(180deg,#f5e4cd00 0%,#4c322756 100%)}
+.story-stage.a6 .scene-corner{color:#774b32;background:#f5e7c49c;padding:8px 7px}
+.intro-title{width:53%}
+.intro-title h2{font-size:clamp(25px,2.8vw,46px)}
+.story-stage .portrait{height:80%;bottom:-2%;object-fit:contain;object-position:bottom}
+.story-stage .portrait.xiren{width:42%;left:1%;right:auto}
+.story-stage .portrait.song{width:42%;right:1%;left:auto}
+.story-stage .portrait.baoyu{width:42%;right:1%;left:auto}
+.story-stage.a1 .portrait.xiren{width:52%;left:-10%}
+.story-stage.b1 .portrait.song{width:52%;right:-10%}
+.story-stage.b3 .portrait.baoyu{width:52%;right:-10%}
+.story-stage.a1 .nameplate,.story-stage.a2 .nameplate,.story-stage.a4 .nameplate,.story-stage.b2 .nameplate{left:29%}
+.story-stage.b3 .nameplate{left:72%}
+.story-stage.a3 .nameplate,.story-stage.a5 .nameplate,.story-stage.b1 .nameplate,.story-stage.a6 .nameplate{left:50%}
+.story-stage.a6 .portrait{display:none!important}
+.story-stage.b3 .scene-cta{width:30%;font-size:clamp(20px,2.2vw,35px)}
+
+/* The confirmed scene is now the page itself, with no preview frame. */
+html,body{width:100%;height:100%;overflow:hidden}
+.story-preview{width:100%;height:100vh;height:100dvh;margin:0}
+.story-preview .story-stage{width:100%;height:100%;aspect-ratio:auto;box-shadow:none}
+.story-stage .background{background-size:100% 100%}
+.story-stage .dialogue{padding:clamp(18px,2.3vh,30px) 6% clamp(22px,2.8vh,36px);min-height:19%;}
+.story-stage .dialogue p{font-size:clamp(18px,min(2.2vw,3.6vh),36px);line-height:1.55}
+.story-stage .nameplate{font-size:clamp(18px,min(2.15vw,3.5vh),35px)}
+.story-stage .portrait{height:76%;bottom:17%;max-width:48%}
+.story-stage.a1 .portrait.xiren{left:0;width:48%}
+.story-stage.b1 .portrait.song,.story-stage.b3 .portrait.baoyu{right:0;width:48%}
+.story-stage.a6 .scene-cta{right:4%;bottom:calc(var(--dialogue-top-offset, 26%) + 22px);cursor:pointer}
+.intro-advance{position:relative;z-index:4;padding:12px 32px;border:2px solid #d5a779;background:#913e31;color:#fff1d7;font:inherit;font-size:clamp(18px,2vw,28px);letter-spacing:.1em;box-shadow:0 7px 15px #3b211b66;cursor:pointer}
+.intro-advance:hover,.story-stage.a6 .scene-cta:hover{background:#a94b38}
+@media(max-aspect-ratio:4/3){.story-stage .portrait{max-width:49%;height:69%;bottom:23%}.story-stage .dialogue{left:2%;right:2%;padding-left:5%;padding-right:5%}.story-stage .dialogue p{font-size:clamp(18px,2.5vw,29px)}}
+
+/* Revised chapter scenes: the kitchen starts at A9, after eight story screens. */
+.story-stage.a6 .yihong{opacity:1}
+.story-stage.a6 .workbench{opacity:0}
+.story-stage.a6 .portrait{display:block!important}
+.story-stage.a6 .portrait[hidden]{display:none!important}
+.story-stage.a6 .wash{background:linear-gradient(90deg,#3e383124 0%,transparent 28%,#4a362724 100%),linear-gradient(180deg,#f5e0bd0a 0%,transparent 45%,#49311d78 100%)}
+.story-stage.a6 .scene-corner{color:#8a4638;background:transparent;padding:8px 2px}
+.story-stage.a9 .yihong,.story-stage.a10 .yihong{opacity:0}
+.story-stage.a9 .workbench,.story-stage.a10 .workbench{opacity:1}
+.story-stage.a9 .portrait,.story-stage.a10 .portrait{display:none!important}
+.story-stage.a9 .wash,.story-stage.a10 .wash{background:linear-gradient(180deg,#f5e4cd00 0%,#4c322756 100%)}
+.story-stage.a9 .scene-corner,.story-stage.a10 .scene-corner{color:#774b32;background:#f5e7c49c;padding:8px 7px}
+.story-stage .portrait.qingwen{width:48%;left:0;right:auto}
+.story-stage .portrait.qiuwen{width:48%;left:0;right:auto}
+.story-stage.a1 .nameplate,.story-stage.a2 .nameplate,.story-stage.a3 .nameplate,.story-stage.a4 .nameplate,.story-stage.a6 .nameplate,.story-stage.a8 .nameplate{left:29%}
+.story-stage.a5 .nameplate,.story-stage.a7 .nameplate,.story-stage.a9 .nameplate,.story-stage.a10 .nameplate,.story-stage.b1 .nameplate,.story-stage.b2 .nameplate,.story-stage.b4 .nameplate,.story-stage.b5 .nameplate,.story-stage.b7 .nameplate,.story-stage.b8 .nameplate{left:50%}
+.story-stage.b3 .nameplate,.story-stage.b6 .nameplate{left:72%}
+.story-stage.a10 .scene-cta{right:4%;bottom:calc(var(--dialogue-top-offset, 26%) + 22px);cursor:pointer}
+.story-stage.a10 .scene-cta:hover{background:#a94b38}
+.story-stage.b8 .scene-cta{left:50%;top:45%;right:auto;bottom:auto;transform:translate(-50%,-50%);width:30%;height:12%;padding:0;font-size:clamp(20px,2.2vw,35px)}
+.story-stage.b7 .portrait.song{left:0;right:auto}

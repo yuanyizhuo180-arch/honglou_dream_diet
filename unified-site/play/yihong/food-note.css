@@ -1,0 +1,32 @@
+:root{color-scheme:light;--silk:#f3e8d4;--porcelain:#fbf6ea;--rouge:#873f49;--cinnabar:#913e31;--gold:#af8a4b;--ink:#302823}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#b89a79 url("assets/yihong-bg.png") center top/cover fixed;color:var(--ink);font-family:"Songti SC","Noto Serif CJK SC","STSong",serif}
+body::before{content:"";position:fixed;inset:0;background:#3b211b70;pointer-events:none}
+.note-page{position:relative;max-width:1320px;margin:0 auto;padding:28px 24px 68px}
+.hero{margin:0 0 14px;position:relative;outline:2px solid #a35c41;box-shadow:0 16px 35px #2e1a15a8;overflow:hidden}
+.hero img{display:block;width:100%;height:clamp(260px,32vw,450px);object-fit:cover;object-position:center bottom}
+.hero figcaption{position:absolute;right:18px;bottom:17px;background:#f9eadbdc;color:#683829;padding:6px 13px;font-size:15px;letter-spacing:.06em}
+.paper{background:linear-gradient(110deg,#f2e2c5f8,#fbf2dff9 45%,#e9d5b4f8);border:2px solid #a35c41;outline:1px solid #e8c49a;outline-offset:-12px;box-shadow:0 13px 30px #2e1a1580;padding:52px clamp(26px,6vw,105px) 68px}
+.note-heading{text-align:center;padding:4px 0 45px}
+.chapter{font-size:18px;letter-spacing:.14em;color:#754637;margin:0 0 18px}
+h1{font-size:clamp(36px,4.3vw,62px);line-height:1.25;letter-spacing:.08em;color:#762d27;margin:0;font-weight:600}
+.subtitle{font-size:23px;color:#855638;margin:20px 0 0;letter-spacing:.12em}
+section{border-top:1px solid #c9a782;padding:33px 0 25px}
+h2{font-size:clamp(23px,2.2vw,30px);color:#783128;font-weight:600;margin:0 0 22px;letter-spacing:.06em}
+p{font-size:20px;line-height:1.85;margin:0 0 17px}
+section>p:last-child{margin-bottom:0}
+.custom-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:0 0 26px}
+.custom-grid p{background:#fff9eebd;border-left:3px solid var(--gold);padding:18px 21px;margin:0;font-size:18px;line-height:1.75}
+.custom-grid strong{color:#873f32}
+.afterword{text-align:center}
+.afterword h2{font-size:25px}
+.afterword p:last-child{color:#873f32;font-size:24px;margin-top:18px}
+.sources p{font-size:17px;line-height:1.75}
+.sources strong{color:#783128}
+.ending-actions{display:flex;justify-content:center;gap:24px;padding:38px 0 0}
+.ending-actions a{min-width:236px;text-align:center;text-decoration:none;background:var(--cinnabar);color:#fff1d7;border:2px solid #d5a779;box-shadow:0 7px 15px #3b211b66;padding:16px 24px;font-size:22px;letter-spacing:.1em}
+.ending-actions a:hover{background:#a94b38}
+.ending-actions a:focus-visible{outline:3px solid #fff2ba;outline-offset:5px}
+@media(max-width:700px){body{background-attachment:scroll}.note-page{padding:12px 12px 35px}.hero img{height:260px}.hero figcaption{font-size:11px;right:8px;bottom:8px}.paper{padding:36px 22px 44px}.chapter{font-size:14px}.subtitle{font-size:18px}p{font-size:17px}.custom-grid{grid-template-columns:1fr}.custom-grid p{font-size:16px}.ending-actions{flex-direction:column;gap:12px}.ending-actions a{width:100%;font-size:18px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

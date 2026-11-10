@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><script src="/phone-core.js?v=20261110-smooth-v6"></script><script src="/phone-entry.js?v=20261110-smooth-v6"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>红楼小灶 · 栗粉糕备料</title>
+  <link rel="stylesheet" href="cake-game.css">
+<link rel="stylesheet" href="/site-navigation.css"><link rel="stylesheet" href="/catch-header.css?v=20261107-actions2"></head>
+<body data-mobile-kind="catch">
+  <main class="game" id="game" aria-label="桂花糖蒸新栗粉糕接食材游戏">
+    <div class="side-shade left" aria-hidden="true"></div>
+    <div class="side-shade right" aria-hidden="true"></div>
+    <section class="game-column" id="game-column">
+      <header class="game-header">
+        <div class="heading-row">
+          <div><span class="eyebrow">红楼小灶 · 怡红院 · 游戏改编</span><h1>桂花糖蒸新栗粉糕</h1></div>
+          <div class="header-actions"><a id="exit-game" href="/play/yihong/story.html?scene=B1">退出游戏</a><button id="pause" type="button" aria-pressed="false">暂停</button><button id="restart" type="button">重来</button></div>
+        </div>
+        <div class="order-caption"><strong>备料单</strong><span>左右移动碟子，接齐四样食材。漏接不扣错。</span><span id="mistakes" class="mistakes" aria-label="剩余接错机会"></span></div>
+        <div class="goals" id="goals" aria-label="目标食材和数量"></div>
+      </header>
+      <div class="play-zone" id="play-zone" aria-label="三条食材落下轨道">
+        <div class="lane-guide" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div id="drops" class="drops" aria-hidden="true"></div>
+      </div>
+      <div class="catch-zone" id="catch-zone" aria-label="移动碟子的区域">
+        <div class="catch-line" aria-hidden="true"></div>
+        <img class="catch-plate" id="catch-plate" src="assets/cake-catch/plate.svg" alt="接食材的瓷碟" draggable="false">
+        <span class="control-hint">移动鼠标或按 ← → 移动碟子</span>
+      </div>
+      <div class="status" id="status" role="status" aria-live="polite"></div>
+    </section>
+    <div class="modal" id="modal" aria-modal="true" role="dialog">
+      <div class="modal-card"><span class="modal-eyebrow">怡红院 · 想象试做</span><h2 id="modal-title">帮袭人备齐食材</h2><p id="modal-copy">栗子三份、糯米粉两份、干桂花两份、蜜水一份。红菱、鸡头米和酸笋不是这道糕的材料，接错三次就要重来。</p><div class="modal-actions"><button id="modal-action" type="button">开始备料</button><a id="modal-continue" href="story.html?scene=B1" hidden>继续剧情</a></div><small>参考《红楼梦》第三十七回情境；食材组合与游戏操作为拟制。</small></div>
+    </div>
+  </main>
+  <script src="cake-game-core.js"></script>
+  <script src="cake-game.js"></script>
+<script src="/catch-header.js?v=20261107-actions2"></script></body>
+</html>
