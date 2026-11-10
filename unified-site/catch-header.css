@@ -1,0 +1,40 @@
+.game-header .heading-row{display:flex;align-items:flex-start;justify-content:space-between;gap:14px}
+.game-header .heading-row>div:first-child{flex:1 1 auto;min-width:0}
+.game-header .heading-row h1{overflow-wrap:anywhere}
+.game-header .header-actions{display:flex;flex:0 0 auto;flex-direction:row;flex-wrap:nowrap;align-items:center;justify-content:flex-end;gap:8px;margin:0 0 0 auto}
+.game-header .header-actions>a,.game-header .header-actions>button{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;height:44px;min-height:44px;min-width:68px;margin:0;padding:8px 12px;border:1px solid #92563d;border-radius:8px;background:#f6e7ce;color:#6a392b;box-shadow:0 3px 0 #8c583d44;font:400 16px/1.2 "Songti SC","Noto Serif CJK SC",serif;text-decoration:none;white-space:nowrap}
+.game-header .header-actions>a{min-width:96px}
+.game-header .header-actions>button{width:68px;flex:none}
+.game-header .header-actions>a:hover,.game-header .header-actions>button:hover{background:#fff1d8}
+.game-header .header-actions>a:focus-visible,.game-header .header-actions>button:focus-visible{outline:3px solid #235f83;outline-offset:3px}
+.play-zone{top:var(--catch-play-top,190px)}
+@media(max-width:700px){
+ .game-column{width:calc(100vw - 20px)}
+ .side-shade{width:10px}
+ .game-header{left:2%;right:2%;top:10px;padding:10px}
+ .game-header .heading-row{flex-wrap:wrap;gap:8px}
+ .game-header .heading-row>div:first-child{flex:1 0 100%;width:100%}
+ .game-header .heading-row h1{font-size:22px;line-height:1.35;margin:3px 0 0;letter-spacing:.03em}
+ .game-header .header-actions{flex:0 0 auto;max-width:100%;margin-left:auto;gap:7px}
+ .game-header .header-actions>a,.game-header .header-actions>button{font-size:14px;padding:8px 10px}
+ .game-header .header-actions>a{min-width:90px}
+ .game-header .header-actions>button{min-width:64px;width:64px}
+ .order-caption{align-items:flex-start;gap:6px;margin:10px 0 8px;font-size:12px;line-height:1.5}
+ .order-caption strong{font-size:15px;flex:none}
+ .order-caption span:nth-child(2){min-width:0;flex:1;overflow-wrap:anywhere}
+ .mistakes{font-size:22px;line-height:1.2;letter-spacing:1px;flex:none}
+ .goals{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+ .goal{min-height:58px;padding:4px 6px;gap:4px}
+ .goal img{width:40px;height:40px}
+ .goal span,.goal span.item-name{font-size:13px}
+ .goal strong{font-size:14px}
+ .goal .kind{left:50px;font-size:10px}
+ .goal.done::after{font-size:13px}
+}
+@media(max-width:360px){
+ .goal img{width:32px;height:32px}
+ .goal span,.goal span.item-name{font-size:12px}
+ .goal strong{font-size:13px}
+ .goal .kind{left:42px}
+ .goal.done::after{position:absolute;right:3px;bottom:2px;font-size:11px}
+}

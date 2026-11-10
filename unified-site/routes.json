@@ -1,0 +1,50 @@
+{
+  "xiaoxiang": {
+    "title": "潇湘馆·燕窝粥",
+    "story": "/play/chapters/xiao-story.html",
+    "game": "/play/chapters/xiao-game.html",
+    "note": "/play/xiao-food-note.html",
+    "before": "A9",
+    "after": "B8"
+  },
+  "yihong": {
+    "title": "怡红院·桂花栗粉糕",
+    "story": "/play/yihong/story.html",
+    "game": "/play/yihong/cake-game.html",
+    "note": "/play/yihong/food-note.html",
+    "before": "A10",
+    "after": "B8"
+  },
+  "hengwu": {
+    "title": "蘅芜苑·备赏桂花宴",
+    "story": "/play/chapters/heng-story.html",
+    "game": "/play/hengwu-banquet.html",
+    "note": "/play/hengwu-food-note.html",
+    "before": "A10",
+    "after": "B13"
+  },
+  "qiushuang": {
+    "title": "秋爽斋·茄鲞",
+    "story": "/play/eggplant-story/story.html",
+    "game": "/play/kitchen-draft.html?chapter=eggplant&from=story",
+    "note": "/play/eggplant-story/food-note.html",
+    "before": "A15",
+    "after": "B8"
+  },
+  "ouxiang": {
+    "title": "藕香榭·螃蟹备席",
+    "story": "/play/chapters/oux-story.html",
+    "game": "/play/chapters/oux-game.html",
+    "note": "/play/oux-food-note.html",
+    "before": "A10",
+    "after": "B8"
+  },
+  "daoxiang": {
+    "title": "稻香村·雪日送暖",
+    "story": "/play/chapters/dao-story.html",
+    "game": "/play/daoxiang-game.html",
+    "note": "/play/daoxiang-food-note.html",
+    "before": "A13",
+    "after": "B12"
+  }
+}

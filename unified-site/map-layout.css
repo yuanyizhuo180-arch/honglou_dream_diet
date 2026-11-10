@@ -1,0 +1,25 @@
+/* The map sits on one continuous paper surface; no opaque map-sized panel. */
+:root{background:#f8f1e6}body{background:radial-gradient(ellipse at 48% 46%,#faf4e9,#f8f1e6 72%,#f5ecdd)}
+#map{inset:94px 0 100px;outline:0;border:0;background:transparent;overflow:hidden}
+#map:focus-visible{box-shadow:none}
+body.panel-open #map{right:252px}
+#garden-image{-webkit-mask-image:linear-gradient(to right,transparent,#000 1.5%,#000 98.5%,transparent),linear-gradient(to bottom,transparent,#000 1.5%,#000 98.5%,transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent,#000 1.5%,#000 98.5%,transparent),linear-gradient(to bottom,transparent,#000 1.5%,#000 98.5%,transparent);mask-composite:intersect}
+.label.edge-pinned{border-style:dashed;background:#fff8e8;box-shadow:0 2px 9px #6b493b26}
+#panel{top:96px;bottom:100px}#food{letter-spacing:1px}
+@media(max-width:700px){
+ #map,body.panel-open #map{inset:80px 0 156px}
+ #panel{bottom:156px;max-height:50dvh;max-height:min(440px,50dvh)}
+ body.panel-open #map{bottom:calc(156px + var(--map-panel-height,0px))}
+ .label{min-height:44px;min-width:32px;font-size:13px;letter-spacing:1px;padding:6px 4px}
+}
+@media(max-width:700px){
+ #panel{top:auto;padding:18px 18px 12px}
+ #panel h1{font-size:26px;margin:4px 0}
+ #panel .kicker{margin:2px 0}
+ #panel #resident{margin:4px 0 8px}
+ #panel figure{max-width:190px;margin:8px auto}
+ #panel #detail-image{aspect-ratio:1.8!important}
+ #panel #summary{font-size:14px;line-height:1.5;margin:8px 0 12px}
+ #panel #food,#panel #panel-back{min-height:44px;font-size:16px}
+ #panel #panel-back{margin-top:12px}
+}

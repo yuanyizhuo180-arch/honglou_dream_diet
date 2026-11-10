@@ -1,0 +1,26 @@
+:root{--story-font:"Songti SC","STSong","Noto Serif CJK SC","SimSun",serif;--story-text-size:clamp(22px,2.2vw,32px);--story-text-leading:1.6}
+.story-toolbar{position:fixed!important;top:16px;left:16px;right:230px;z-index:80;display:flex;align-items:flex-start;justify-content:flex-start;gap:12px;pointer-events:none}
+.story-toolbar .site-return{position:static!important;flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;min-height:44px;max-width:none;margin:0;padding:10px 14px;white-space:nowrap;pointer-events:auto;font:400 15px/1.4 var(--story-font);letter-spacing:0}
+.story-toolbar .story-source{position:static!important;inset:auto!important;flex:0 1 auto;min-width:0;max-width:100%;margin:0!important;padding:10px 12px!important;color:#623d2e;background:#efdfc5e8;border-left:3px solid #a54937;font:400 14px/1.5 var(--story-font)!important;letter-spacing:.06em!important;white-space:normal;overflow-wrap:anywhere;text-shadow:none;pointer-events:auto}
+.story-stage.a0 .story-toolbar .story-source,.story-toolbar .story-source:empty{display:none}
+#scene-title,.page-label{position:fixed!important;top:16px;right:16px;max-width:190px;font:400 14px/1.5 var(--story-font);white-space:normal;letter-spacing:.08em}
+.scene-kicker:empty{display:none!important}
+#stage #dialogue{padding:24px 5% 26px!important;height:auto!important;min-height:19%;box-sizing:border-box}
+#stage #dialogue #line{font-family:var(--story-font)!important;font-size:var(--story-text-size)!important;font-weight:400!important;line-height:var(--story-text-leading)!important;letter-spacing:.06em!important;margin:0!important;white-space:pre-line;overflow-wrap:anywhere}
+#stage #dialogue #speaker{font-family:var(--story-font)!important;font-weight:400!important;font-size:clamp(20px,2vw,30px)!important;line-height:1.3!important}
+@media(max-width:700px){
+ :root{--story-text-size:18px;--story-text-leading:1.6}
+ .story-toolbar{top:10px;left:10px;right:10px;gap:8px}
+ .story-toolbar .site-return{font-size:14px;min-height:44px;padding:10px}
+ .story-toolbar .story-source{font-size:12px!important;padding:7px 9px!important;line-height:1.5!important}
+ #scene-title,.page-label{top:calc(16px + var(--story-toolbar-height,44px));right:12px;max-width:180px;font-size:12px}
+ #stage #dialogue{position:fixed!important;left:3%!important;right:3%!important;bottom:20px!important;width:auto!important;min-height:120px!important;max-height:calc(65dvh - 54px);padding:24px 20px 28px!important;z-index:30}
+ #stage #dialogue #speaker{font-size:20px!important;min-width:90px;top:-35px!important}
+ #stage .cta,#stage .scene-cta,#stage .food-note-entry{z-index:40}
+ /* The CTA follows the true dialogue position, not the short 16:9 artwork. */
+ #stage .cta:not([hidden]),#stage .food-note-entry:not([hidden]){position:fixed!important;bottom:calc(var(--story-dialogue-height,180px) + 64px)!important;top:auto!important;right:5%!important;left:auto!important;max-width:90%;font-size:16px;transform:none!important}
+ #stage.story-stage:not(.a0) .scene-cta:not([hidden]){position:fixed!important;bottom:calc(var(--story-dialogue-height,180px) + 64px)!important;top:auto!important;right:5%!important;left:auto!important;width:auto!important;height:auto!important;min-height:44px!important;transform:none!important;padding:10px 16px!important;font-size:16px!important}
+ #stage.story-stage.a0 .intro-overview{width:88%;font-size:18px;line-height:1.6;padding:18px}
+ #stage.story-stage.a0 .intro-title{width:88%}
+ #stage.story-stage.a0 .intro-title h2{font-size:26px}
+}

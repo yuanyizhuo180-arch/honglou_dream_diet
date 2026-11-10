@@ -1,0 +1,128 @@
+:root {
+  --silk: #f3e8d4;
+  --porcelain: #fbf6ea;
+  --rouge: #873f49;
+  --stone: #456b5b;
+  --gold: #af8a4b;
+  --ink: #302823;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; color: var(--ink); background: var(--silk); }
+
+.home {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  overflow-x: clip;
+}
+
+/* The stage has the exact aspect ratio of the desktop painting. */
+.stage {
+  position: relative;
+  width: min(100vw, 177.68svh);
+  aspect-ratio: 1672 / 941;
+  overflow: hidden;
+}
+
+.art {
+  position: absolute;
+  inset: 0;
+  background: var(--silk) url("play/assets/home-banquet-user.png") center / 100% 100% no-repeat;
+}
+
+.navigation {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 33.333%;
+  padding: clamp(24px, 3.25vw, 58px) clamp(22px, 3vw, 54px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.intro {
+  position: absolute;
+  top: clamp(24px, 3.25vw, 58px);
+  left: clamp(22px, 3vw, 54px);
+  margin: 0;
+  color: var(--stone);
+  font: 14px/1.5 "Songti SC", "Noto Serif SC", serif;
+  letter-spacing: .17em;
+}
+
+.title-mark {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  gap: .16em;
+  margin: 0 0 24px;
+  color: var(--ink);
+  font-family: "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", serif;
+  font-size: clamp(68px, 6.7vw, 112px);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: .02em;
+}
+
+.title-column { writing-mode: vertical-rl; text-orientation: upright; }
+
+.subhead {
+  margin: 0 0 32px;
+  font: 17px/1.65 "Songti SC", "Noto Serif SC", serif;
+  letter-spacing: .04em;
+}
+
+nav { width: 100%; }
+nav a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 62px;
+  padding: 5px 2px;
+  border-top: 1px solid rgba(48, 40, 35, .32);
+  color: var(--ink);
+  text-decoration: none;
+  font: 23px/1.3 "STKaiti", "KaiTi", "Kaiti SC", "Songti SC", serif;
+}
+nav a:last-child { border-bottom: 1px solid rgba(48, 40, 35, .32); }
+nav a span:last-child { color: var(--gold); font: 19px "Songti SC", serif; }
+nav a:hover, nav a:focus-visible { color: var(--rouge); background: rgba(251, 246, 234, .65); }
+nav a:focus-visible { outline: 2px solid var(--rouge); outline-offset: 2px; }
+
+/* Keep the desktop composition side by side on tablet and narrow desktop windows.
+   Switch to the stacked mobile treatment only on phone-sized screens. */
+@media (max-width: 640px) {
+  .home { display: block; }
+  .stage { width: 100%; aspect-ratio: auto; overflow: visible; }
+  .art {
+    position: relative;
+    height: calc(100vw * 1.7768);
+    background-image: url("play/assets/home-banquet-v3-mobile.png");
+    background-size: 100% auto;
+    background-position: top center;
+  }
+  .navigation {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    min-height: 0;
+    padding: 26px 28px 42px;
+    background: var(--silk);
+  }
+  .intro { position: static; margin: 0 0 22px; font-size: 12px; }
+  .title-mark { font-size: clamp(62px, 14vw, 88px); margin-bottom: 14px; }
+  .subhead { font-size: 15px; margin-bottom: 22px; }
+  nav a { min-height: 52px; font-size: 21px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; }
+}
+
+
+
+
+
+nav a{transition:background .15s,color .15s}nav a:active{background:#eadcc6}nav a{min-height:48px}nav a:last-child{border-bottom:1px solid #30282352}
