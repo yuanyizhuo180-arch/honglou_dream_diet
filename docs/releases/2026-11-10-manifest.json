@@ -1,0 +1,1332 @@
+[
+  {
+    "file": "app.js",
+    "bytes": 5863,
+    "sha256": "3041f7f917aa124866961874cf1d53ae5357ddf12e4263e40af9fda4899b8241"
+  },
+  {
+    "file": "assets/favicon.svg",
+    "bytes": 310,
+    "sha256": "f57dd2de4015b3c371de856da1d3baa53120bdd2439ad6a5a320be8a330e573d"
+  },
+  {
+    "file": "assets/garden-clean.png",
+    "bytes": 3048673,
+    "sha256": "8f29d49a5e745cc8a084bd2c04dab3d402a6c4cf11b297898f00d9f236dd15f0"
+  },
+  {
+    "file": "assets/reference-original.png",
+    "bytes": 2769529,
+    "sha256": "72cc541691a767ef78fa47591d5ae650ae2b1b1fc0cdfc44101f68ac6f54b8b2"
+  },
+  {
+    "file": "cabinet-feedback.css",
+    "bytes": 285,
+    "sha256": "4a4bcb48e5134b72cbf23da9bdf6048ad721252cac46ddc5aa85e294ec8770b9"
+  },
+  {
+    "file": "cabinet-hint.js",
+    "bytes": 607,
+    "sha256": "fae6b277470921877aa6c77fb6638e9dfb5501ea96418c767fefba8ff9b24da4"
+  },
+  {
+    "file": "catalog/app.js",
+    "bytes": 11058,
+    "sha256": "137d1eaca2b20949b20dc2a544c2a8307b57fa31939fe4673d89c83e7845ee29"
+  },
+  {
+    "file": "catalog/assets/garden-banquet-v2.png",
+    "bytes": 2622249,
+    "sha256": "8b2973411ae6a3c1f5295976199458337de21cf0d0b6542d2616374645f0bc3d"
+  },
+  {
+    "file": "catalog/assets/garden-banquet.png",
+    "bytes": 2622249,
+    "sha256": "8b2973411ae6a3c1f5295976199458337de21cf0d0b6542d2616374645f0bc3d"
+  },
+  {
+    "file": "catalog/catalog.js",
+    "bytes": 869010,
+    "sha256": "2bc7e1763201b795ad44aa90eba5e3984b2aed0ec28d63ff068ec9755e03581e"
+  },
+  {
+    "file": "catalog/catalog.json",
+    "bytes": 1227065,
+    "sha256": "826974c46f62ad18fd0fbbaf091ef3acbe575e4f8746d1cf1612244c81fbd6e1"
+  },
+  {
+    "file": "catalog/index.html",
+    "bytes": 1505,
+    "sha256": "c706712ad7c8198063c8837e9510648b7a2717723e65b385e27a0779ceeb1969"
+  },
+  {
+    "file": "catalog/styles.css",
+    "bytes": 10507,
+    "sha256": "e45cd874001f3c370a2513e856201a6198d182c0b477eff6e72f6069d37ddbdb"
+  },
+  {
+    "file": "catch-header.css",
+    "bytes": 2694,
+    "sha256": "db596c681b59994ce05fe8592ef07755d8cec5fd991fce6da966794ae86fcd6d"
+  },
+  {
+    "file": "catch-header.js",
+    "bytes": 404,
+    "sha256": "d5e3283c66329478698f94a985f7096b559c64790ba9ce4e106d8863cfd0cbd6"
+  },
+  {
+    "file": "catch-input.js",
+    "bytes": 1094,
+    "sha256": "bb3d31cd363d54c9ae415a860455f64a323339f21985e0a76b0e6ba5a976b59d"
+  },
+  {
+    "file": "garden-content.js",
+    "bytes": 404,
+    "sha256": "955a569773756db7956c6a805a443e7348e898aae6854a9ceed7c9846051fdc5"
+  },
+  {
+    "file": "garden-data.json",
+    "bytes": 4640,
+    "sha256": "32ff32866e69dfa7ff6c99cc7964a3b9f7c94f0be71e5bfb6783f47b6debf55d"
+  },
+  {
+    "file": "garden/index.html",
+    "bytes": 3154,
+    "sha256": "0062570c1bcbf8effcbcb4f47c09024354801bfd527160c0122c866b82beb84e"
+  },
+  {
+    "file": "home-draft.css",
+    "bytes": 3355,
+    "sha256": "3fd10a30e52be90a5fadd349a24b2680dd101c18fbea1c350e392eb5bc69e808"
+  },
+  {
+    "file": "index.html",
+    "bytes": 1249,
+    "sha256": "77b4b1935b12932db624949dca83a2ff7ff78df1d761f23f23c8d6b88ed60f0a"
+  },
+  {
+    "file": "labels.js",
+    "bytes": 1185,
+    "sha256": "2928475f03cb07aa1120d109e836c3823ecd3f4139c9ec980b6a6d662ec1feff"
+  },
+  {
+    "file": "map-layout.css",
+    "bytes": 1616,
+    "sha256": "5ee8f2e1e9dbf0a7c67424e9c1750a08ec0d513ffe986d5cb9d068a576bbba7e"
+  },
+  {
+    "file": "map.js",
+    "bytes": 3615,
+    "sha256": "e8b63fdaf78318cc433db2a8941668dcc236ef5bd20cb90f67431c4994797d7e"
+  },
+  {
+    "file": "mobile-play.css",
+    "bytes": 7734,
+    "sha256": "7168f7ab1b0b681292987a2067364e3a55b7a6a36b08b15f8f2ae57684d92586"
+  },
+  {
+    "file": "mobile-play.js",
+    "bytes": 1926,
+    "sha256": "1c39ac63d9aa063b704a894c1c14f2188226720f4aaa899b2ce35bad7c750be2"
+  },
+  {
+    "file": "mobile/index.html",
+    "bytes": 1145,
+    "sha256": "a94a49ad7e880e0a3802d6181a1c8393a67a7c628f61c53165448c9d2d0781b8"
+  },
+  {
+    "file": "phone-core.js",
+    "bytes": 427,
+    "sha256": "9f507864fb6c6c5850fdf1b7c9b1a3dafd71945ddd8a3bc7cfd3fa3d9a8781cc"
+  },
+  {
+    "file": "phone-entry.js",
+    "bytes": 895,
+    "sha256": "d12e84616ec60ba1a294c85d6f854d39e3213eede1f0ba74092268ee351dddcb"
+  },
+  {
+    "file": "phone-frame.css",
+    "bytes": 11602,
+    "sha256": "406ee36a2a84c7a958c2656b0218a91b9287e45245fa034c46875354b4b1ada2"
+  },
+  {
+    "file": "phone-frame.js",
+    "bytes": 3004,
+    "sha256": "7a3c2f32d0dfcad756e4004ff4376bcf74e1a67148971b23a62f203192a7e216"
+  },
+  {
+    "file": "phone-reading.js",
+    "bytes": 4048,
+    "sha256": "6a761472c0b4e4aacd5df13594c0955f2b017c9575d767ca587257c03e1d2a7a"
+  },
+  {
+    "file": "phone-shell.js",
+    "bytes": 1498,
+    "sha256": "6c1e09820791f2d09e68594600775c96a7ed0e60bab5ce42924b19d0067e659b"
+  },
+  {
+    "file": "play/app.js",
+    "bytes": 7731,
+    "sha256": "98b4712d889e97c0d5df4e7984431d4df0585de6539f65fb9e3c685d8aab43fa"
+  },
+  {
+    "file": "play/assets/cake-catch/background-desktop.png",
+    "bytes": 2286759,
+    "sha256": "dfcc03db534c41a4f8035110afdd0cdf15b187b5a339296b868d784a5ad273d1"
+  },
+  {
+    "file": "play/assets/cake-catch/chestnut.svg",
+    "bytes": 654,
+    "sha256": "575b081c097caa4319ae43122d64901e55a89b4409fc948b1f9e7f96cfe0f45b"
+  },
+  {
+    "file": "play/assets/cake-catch/fox-nut.svg",
+    "bytes": 574,
+    "sha256": "7b82faac605d1b682d7074b405e5b235267be02e4c0f417cfbd131eed2b01b42"
+  },
+  {
+    "file": "play/assets/cake-catch/honey-water.svg",
+    "bytes": 619,
+    "sha256": "31d2fbfd374f6b90af2b3289dc4b2f7031db95a9299d4bbb4d65aa3b91bc2714"
+  },
+  {
+    "file": "play/assets/cake-catch/osmanthus.svg",
+    "bytes": 886,
+    "sha256": "343dec3ff812932f42ee34c8294871549bd552170f461c8ce8a037bcb3c3b853"
+  },
+  {
+    "file": "play/assets/cake-catch/pickled-bamboo.svg",
+    "bytes": 581,
+    "sha256": "9f88cfaf115c458464fa371b9d16fb4baaeeca635ca173ab499204c71d4627af"
+  },
+  {
+    "file": "play/assets/cake-catch/plate.svg",
+    "bytes": 777,
+    "sha256": "22ef25a7cb5382d2a9be7ffc607d880ebf02bc3651483a2457e73884305d08aa"
+  },
+  {
+    "file": "play/assets/cake-catch/red-caltrop.svg",
+    "bytes": 593,
+    "sha256": "81ad39a199f8c0cbbace20c7e23de8ededd819c4d578c2ec42856ab0b3dab699"
+  },
+  {
+    "file": "play/assets/cake-catch/rice-flour.svg",
+    "bytes": 655,
+    "sha256": "c80381140dfbcd5d3280ecdbcf5e9c535a63210bdecc3fe07a6362c97d35f238"
+  },
+  {
+    "file": "play/assets/daoxiang-background-v1.png",
+    "bytes": 2611356,
+    "sha256": "f0ae8e2b4bd62b546406a2bc78e1a4723ef68a29fc9d01bbfac920e53947ef49"
+  },
+  {
+    "file": "play/assets/daoxiang-food-note-hero.png",
+    "bytes": 2810136,
+    "sha256": "1147daa67d1e8e741e02e73d123926270a758387e99dd7a205e3f6ca6992efa1"
+  },
+  {
+    "file": "play/assets/daoxiang-goods/atlas.png",
+    "bytes": 1138744,
+    "sha256": "d6f76e0a8e2c512de208099111b5d32ba1613dc45a3999ec2fdc57838a18cfc9"
+  },
+  {
+    "file": "play/assets/daoxiang-goods/chopsticks.png",
+    "bytes": 130020,
+    "sha256": "b906f469f0a6adc9631df4daf1bf4373f24e6dd99e082833d698e3e12341e5de"
+  },
+  {
+    "file": "play/assets/daoxiang-goods/food_box.png",
+    "bytes": 245576,
+    "sha256": "8e0608771b214410a3544c4c7962c55dc0f8627d76bf5f569535d05f3272fce5"
+  },
+  {
+    "file": "play/assets/daoxiang-goods/fruit_plate.png",
+    "bytes": 145622,
+    "sha256": "844bb84ab0f92bffb1b1767a3b7549143cadf7d10ccb03e02d1feed02571f013"
+  },
+  {
+    "file": "play/assets/daoxiang-goods/olive.png",
+    "bytes": 151688,
+    "sha256": "ed43947737701ae4054ff3e3d6aadc58c688925782f4e938bc43af26ba459cad"
+  },
+  {
+    "file": "play/assets/daoxiang-goods/orange.png",
+    "bytes": 225691,
+    "sha256": "bd91a64e7ec338057ca5c4a8a731ae60fa3ecf1789720e8ea675df2b311c7cac"
+  },
+  {
+    "file": "play/assets/daoxiang-goods/prepared_fruit.png",
+    "bytes": 450519,
+    "sha256": "664502a6e30fdef154170cd40ce2f6334c0bb91c6cfe17a35b227859bc506dd7"
+  },
+  {
+    "file": "play/assets/daoxiang-goods/snow-gifts-atlas-v1.png",
+    "bytes": 1379990,
+    "sha256": "cf35c04b33b0f7a0a421350eb3b9f23d0e1a3d154dbffa41466915ef5719e8ba"
+  },
+  {
+    "file": "play/assets/daoxiang-goods/tangerine.png",
+    "bytes": 121626,
+    "sha256": "61347f2dfcb8d95362e0be694e759df1c1063d1e74a1afeb4b09582e99376ace"
+  },
+  {
+    "file": "play/assets/daoxiang-goods/taro.png",
+    "bytes": 210673,
+    "sha256": "0b3e3be167b3ec00ce3809b263769386ab030d4cee629a0637a8b0619e666f55"
+  },
+  {
+    "file": "play/assets/daoxiang-goods/taro_basket.png",
+    "bytes": 470259,
+    "sha256": "da3cb42b317412a79061140b012a8d86e24667403a856543ed7e08f89e92a434"
+  },
+  {
+    "file": "play/assets/daoxiang-goods/taro_plate.png",
+    "bytes": 150727,
+    "sha256": "85ace77e336f83877a4b6d3c188464ef60494a32d43f93ef0b7a2f1ab1789519"
+  },
+  {
+    "file": "play/assets/daoxiang-goods/wrapping_cloth.png",
+    "bytes": 383773,
+    "sha256": "2b157b5b7bf45b7959f19db42386a34746f22630f602dbc83080475bffac8f75"
+  },
+  {
+    "file": "play/assets/eggplant-cut/cut-0-v3.png",
+    "bytes": 2498676,
+    "sha256": "cea3f62bbb6f473eb3837e1b2c2e3e2cc0c7be0ac9e18ec44d2889c5c679edf8"
+  },
+  {
+    "file": "play/assets/eggplant-cut/cut-1-prompt-v4.png",
+    "bytes": 2337286,
+    "sha256": "29327d5ca82f7a5d84082cf4e4b5c920bb5adcb202a3acd352f29b9a38cff9c5"
+  },
+  {
+    "file": "play/assets/eggplant-cut/cut-1-v3.png",
+    "bytes": 2435793,
+    "sha256": "fc0d4b097141c14603bf3397bbdc28d12c9421d848fa604b52ae44a0349295f8"
+  },
+  {
+    "file": "play/assets/eggplant-cut/cut-2-prompt-v4.png",
+    "bytes": 2453185,
+    "sha256": "6b17f8c3c7fbf78825f24f07267122acc725f9a1ccb58481d4ee24165376ab04"
+  },
+  {
+    "file": "play/assets/eggplant-cut/cut-2-v3.png",
+    "bytes": 2428205,
+    "sha256": "d35be2fcd7a4173eccc7c99843fdcdcbcdab6bd83e9f1b969d1d044402c75594"
+  },
+  {
+    "file": "play/assets/eggplant-cut/cut-3-prompt-v4.png",
+    "bytes": 2427031,
+    "sha256": "93dfd8483817c94455c365b05336f99b6f13b33779a1a56d0868d816ddb29726"
+  },
+  {
+    "file": "play/assets/eggplant-cut/cut-3-v3.png",
+    "bytes": 2483764,
+    "sha256": "2a36c47823e87e4c0e9aeacad724dced9a061d9da9a3d772bf73409cdd28c8ab"
+  },
+  {
+    "file": "play/assets/eggplant-cut/table-empty-v1.png",
+    "bytes": 2572302,
+    "sha256": "b1e1934477e12a76d28e55e4c0c167a1559ea81d2caca0db0193bcf5fd0723d6"
+  },
+  {
+    "file": "play/assets/eggplant-finish/finished-eggplant-blank-labels-v2.png",
+    "bytes": 2407292,
+    "sha256": "9926db6c5d1e248e7e077486ba05bcdeeef8f8564587138909c4e8ab7e01f2af"
+  },
+  {
+    "file": "play/assets/eggplant-finish/finished-eggplant-full-v1.png",
+    "bytes": 2602157,
+    "sha256": "e79159b8ce395acb965cdaf4da48abe7929f35754da8c4108cc1511288101250"
+  },
+  {
+    "file": "play/assets/eggplant-pot/chicken-broth-jug-v1.png",
+    "bytes": 1275302,
+    "sha256": "606a8dd8d233633705c5017fa60ec08c0cc281d8a7fcfae766d479e94a2d3cb0"
+  },
+  {
+    "file": "play/assets/eggplant-pot/chicken-oil-v1.png",
+    "bytes": 1887804,
+    "sha256": "2c5defc7cc638ccfd2c5b00e0ca5c318b17f7f7073aa2e871542e23e9ea37113"
+  },
+  {
+    "file": "play/assets/eggplant-pot/cooked-eggplant-texture-v1.png",
+    "bytes": 2659885,
+    "sha256": "75c4b42b422baea5d4f2b4d0731ab005476846233ba63270a6af25bfef990f80"
+  },
+  {
+    "file": "play/assets/eggplant-pot/cooked-segments-v1.png",
+    "bytes": 1395791,
+    "sha256": "1b0c222b2f70ca0b9d3e3c0203ae0790d0883fd7cd126ea9a8e03f8f6b0e5e29"
+  },
+  {
+    "file": "play/assets/eggplant-pot/ingredient-atlas-v2.png",
+    "bytes": 1408078,
+    "sha256": "0c982ae8dabbf2c7c1700c826524d4a80853f290597752f9fedac77729f0e4f5"
+  },
+  {
+    "file": "play/assets/eggplant-pot/mixed-ingredients-v1.png",
+    "bytes": 1852729,
+    "sha256": "67f6fc2d1a2a33dbbe1fca473dcfdee3765f40db825dedd2aa22b23e9c22fb8e"
+  },
+  {
+    "file": "play/assets/eggplant-pot/plate-v4.png",
+    "bytes": 2092603,
+    "sha256": "8b95e7f28b351c798c56a918a4df9eca99fae7ac9bc4b73e8f1552df2388b3cb"
+  },
+  {
+    "file": "play/assets/eggplant-pot/sesame-oil-v1.png",
+    "bytes": 1499386,
+    "sha256": "9bd9a551c99c27ca4cdc1b4fb326b6eb0c107516b02d8eec6e89bfa83a72e787"
+  },
+  {
+    "file": "play/assets/eggplant-pot/wok-v4.png",
+    "bytes": 2086271,
+    "sha256": "7a85e0d3ad2b85172bda4641ce987ca283c03b2d2cbd147d143cfec07110f592"
+  },
+  {
+    "file": "play/assets/eggplant-pot/zao-oil-v1.png",
+    "bytes": 1661404,
+    "sha256": "73e496d4df17790a63a1dbdda52801204804c9043291bdbcdeb86962b5c8956d"
+  },
+  {
+    "file": "play/assets/hengwu-goods/banquet-fruits-atlas-v1.png",
+    "bytes": 1618937,
+    "sha256": "6e0414f629e20ba8d17c40abbf056887c40b632964f5726b70badf62fc098853"
+  },
+  {
+    "file": "play/assets/hengwu-goods/banquet-items-atlas-v1.png",
+    "bytes": 1933292,
+    "sha256": "f384ad2d8d8b00b4f2cd2f0e685fa13a2fcdb48075b48420a115fc4fe29d09fe"
+  },
+  {
+    "file": "play/assets/hengwu-goods/crab.png",
+    "bytes": 315385,
+    "sha256": "210b3e227b939d29ca0ec1cc29ffaccfaabf33a22fc577805fc812b1aa4d19d3"
+  },
+  {
+    "file": "play/assets/hengwu-goods/crab_basket.png",
+    "bytes": 364432,
+    "sha256": "ee27a349623acee9b53e51c46e21c09bdbd0ec5b4958877561a172ecd6d3907a"
+  },
+  {
+    "file": "play/assets/hengwu-goods/cup.png",
+    "bytes": 147709,
+    "sha256": "210c8a9bf848026a3428fca1f12536039ed0c17a5ebae8998ac18d93fd9f81f6"
+  },
+  {
+    "file": "play/assets/hengwu-goods/empty_plate.png",
+    "bytes": 185192,
+    "sha256": "85fff00ce4613f3ffba6d32e5a8425f0ecdc3dbf183d80275c064c0fe2bf6796"
+  },
+  {
+    "file": "play/assets/hengwu-goods/fruit_basket.png",
+    "bytes": 354936,
+    "sha256": "0d7ff1b412ca768452e8c89a4367afac8ceebdb8f2943f9a8f83d544865bdaef"
+  },
+  {
+    "file": "play/assets/hengwu-goods/grape.png",
+    "bytes": 393974,
+    "sha256": "d69fc9585b29f949ec7ef1d966d5417d0fce7940efdd65a94ed8f169b06826ab"
+  },
+  {
+    "file": "play/assets/hengwu-goods/items-atlas-v1.png",
+    "bytes": 1818399,
+    "sha256": "64cb20fa4bae77ae56b39b0e43fa40ce22b854d04dac74c721e5836c06f23f21"
+  },
+  {
+    "file": "play/assets/hengwu-goods/lychee.png",
+    "bytes": 368219,
+    "sha256": "99bd3c4a3a3927e60e6135bc9daa03aff3a09d356d1fba35a52e1c5eb4363c42"
+  },
+  {
+    "file": "play/assets/hengwu-goods/osmanthus.png",
+    "bytes": 305825,
+    "sha256": "154b5ec2ef557142cad82ac7172c4166084d8ff7de5e254d43eed2a755909ff6"
+  },
+  {
+    "file": "play/assets/hengwu-goods/peach.png",
+    "bytes": 327962,
+    "sha256": "f3937ec7bb0398d9387fa47c51e1abe329dddffdc01d64b7ed8aa18618fb7521"
+  },
+  {
+    "file": "play/assets/hengwu-goods/pear.png",
+    "bytes": 299425,
+    "sha256": "c2cf711b5e50522aa2bb1954b1f9f971caa14221ec656b121b34fee2787e837b"
+  },
+  {
+    "file": "play/assets/hengwu-goods/platter.png",
+    "bytes": 303293,
+    "sha256": "58056786e81e00dcfedf788b0585374107491b582b22821abf280d5363561475"
+  },
+  {
+    "file": "play/assets/hengwu-goods/pomegranate.png",
+    "bytes": 504003,
+    "sha256": "9a22ff878e85a7e6fec3c94423099165ea3f3816aaab7ed03107ad4a4dfe6588"
+  },
+  {
+    "file": "play/assets/hengwu-goods/ui-atlas-draft-v1.png",
+    "bytes": 2283793,
+    "sha256": "e3cd4b9bcac16df38e1b76ec3c2c6241fe18c5ab628c5fcee7145d7f528ad9b9"
+  },
+  {
+    "file": "play/assets/hengwu-goods/wine.png",
+    "bytes": 288671,
+    "sha256": "6cb4bd3ffa9c52fb42f9ebff62f2d0da0c5e071e5018e2287628e87c8686ee27"
+  },
+  {
+    "file": "play/assets/hengwu-yanniao-background-v1.png",
+    "bytes": 2926379,
+    "sha256": "95003777e5e78dec06add7f7bdb2f1c3c504b85eef2c45b27d6937e031624699"
+  },
+  {
+    "file": "play/assets/hengwu-yanniao-ui-desktop-v1.png",
+    "bytes": 2912133,
+    "sha256": "55b831343677b46bb2dfba54b1752f3fa012c8ff5be02fdc61a9f45dbd745933"
+  },
+  {
+    "file": "play/assets/hengwu-yanniao-ui-mobile-v1.png",
+    "bytes": 2654228,
+    "sha256": "194ae71a43df301169a5d9a3a5c38d5cbd0e1bc8a83412f235dfc4f6bced5470"
+  },
+  {
+    "file": "play/assets/home-banquet-draft.png",
+    "bytes": 2930983,
+    "sha256": "ba4222d9adf9f8de91e5f20cc7ea4fd61ba4e51c032790e753395d2454f971a8"
+  },
+  {
+    "file": "play/assets/home-banquet-user.png",
+    "bytes": 3139853,
+    "sha256": "f09a840fe5a1bd8e51d69ae4b0609d548a8977550860057bb55607683d1f18ce"
+  },
+  {
+    "file": "play/assets/home-banquet-v2.png",
+    "bytes": 2969757,
+    "sha256": "d1c4e6f588616ca301918a4e7f4f2aa2c55fcd9754ae87d37bd1ddf4344fb661"
+  },
+  {
+    "file": "play/assets/home-banquet-v3-desktop.png",
+    "bytes": 2806528,
+    "sha256": "63d9bf1ef25379d9384b22b01842d7e89487c6e751a0ca350cc63446c8fab06f"
+  },
+  {
+    "file": "play/assets/home-banquet-v3-mobile.png",
+    "bytes": 3159185,
+    "sha256": "9f626def640a467828c539550e46167e3fece4b531b0a4c201c0d973f858b3fe"
+  },
+  {
+    "file": "play/assets/home-banquet-v4-desktop.png",
+    "bytes": 3020635,
+    "sha256": "b333e08f8af3f7aac6612e2fb3c164e28cb6ff63f7f5cd6d540edbe2fa14d9ec"
+  },
+  {
+    "file": "play/assets/home-banquet-v5-desktop.png",
+    "bytes": 2907186,
+    "sha256": "f95089d912740e83724f88b41be6f002de69ec9cab300283064c47b66dc2f741"
+  },
+  {
+    "file": "play/assets/home-banquet-v6-desktop.png",
+    "bytes": 2667413,
+    "sha256": "e9fa390bf1a1255059350a2728f971cab68135a2ea22ca32e0ebf7b331ec3fb9"
+  },
+  {
+    "file": "play/assets/home-banquet-v7-restored.png",
+    "bytes": 2780588,
+    "sha256": "b6e1cf3bc839bd4d05848651dea28d60716e6ce0b42cfd0c7cca4a63329b1bea"
+  },
+  {
+    "file": "play/assets/home-banquet-v8-clean.png",
+    "bytes": 2672592,
+    "sha256": "0e23f618da37f9bbe83892cb600c64cb8d4670894e087e8e83bee36c6b447047"
+  },
+  {
+    "file": "play/assets/oux-crab-banquet.png",
+    "bytes": 3123819,
+    "sha256": "2963a9d11a023a4b63af6b40635849822dcfd4dd08ce1613685b81fafa7c117d"
+  },
+  {
+    "file": "play/cake-catch.css",
+    "bytes": 5657,
+    "sha256": "6d797a30cd24f473bfec86749660cf72c2e25ba1fca29b5efe74d26850675602"
+  },
+  {
+    "file": "play/cake-catch.js",
+    "bytes": 8227,
+    "sha256": "b084b75c256544a47331f2b1132a6f2f5952819a6f0fa4a9fde2a892cefb18fe"
+  },
+  {
+    "file": "play/cake-game-core.js",
+    "bytes": 1330,
+    "sha256": "69f17a599d0448f48c8232031df2925344f0997af760a0cb2c9798c39043d627"
+  },
+  {
+    "file": "play/cake-game.css",
+    "bytes": 6499,
+    "sha256": "1b3b060f1953cb5fb67965a57aaa3ddfafa2fd666bb580d29ac7aa7283be60e1"
+  },
+  {
+    "file": "play/cake-game.js",
+    "bytes": 7231,
+    "sha256": "bc8603fe5e257acae4d65c30161e870c6a6a3d8d6c7891a41f4f7f8ab038a7be"
+  },
+  {
+    "file": "play/chapters/assets/baochai-heng-normal.png",
+    "bytes": 2191721,
+    "sha256": "504a17918c490b242f4db80fc8ccd5aca9d98dde64f88e7e748ee3180c2be2d4"
+  },
+  {
+    "file": "play/chapters/assets/baochai-heng-thoughtful.png",
+    "bytes": 2101854,
+    "sha256": "55cd975ffc4daa2f74fee394233f98878eabc623ca55fd85eef7e612679d4eb5"
+  },
+  {
+    "file": "play/chapters/assets/baochai-xiao-normal.png",
+    "bytes": 2177648,
+    "sha256": "8ad15ddcb629fa79c3a1bab658e8d9c58c5beff7177524e22078ff1366912af7"
+  },
+  {
+    "file": "play/chapters/assets/baochai-xiao-smile.png",
+    "bytes": 2104637,
+    "sha256": "27d5461497325c42a9629606542dc2da7b82c4376c2be0fc5d7a5ceaf4c4e1c3"
+  },
+  {
+    "file": "play/chapters/assets/baochai.png",
+    "bytes": 2177648,
+    "sha256": "8ad15ddcb629fa79c3a1bab658e8d9c58c5beff7177524e22078ff1366912af7"
+  },
+  {
+    "file": "play/chapters/assets/baoyu-dao-smile.png",
+    "bytes": 1852178,
+    "sha256": "5d6611524a00a1b9f81ebe9441a54aa73bca851a6288e9557b2be23059335a8d"
+  },
+  {
+    "file": "play/chapters/assets/baoyu-dao.png",
+    "bytes": 1871339,
+    "sha256": "3e484cd5151b13523a5637c4a5eb5a4a8e8ae85d7482be78554321a3ec9f53e4"
+  },
+  {
+    "file": "play/chapters/assets/baoyu.png",
+    "bytes": 1176439,
+    "sha256": "82adab5655260811a97c5339431f11476c67b0296656759ab0e9b86a9b0ffed1"
+  },
+  {
+    "file": "play/chapters/assets/birdnest.svg",
+    "bytes": 408,
+    "sha256": "062b22095310d5ad5f161b237fb69c4612479f694b1dd13f5b41631e3a2c2055"
+  },
+  {
+    "file": "play/chapters/assets/crab.svg",
+    "bytes": 532,
+    "sha256": "a342d416fce8241053f77696970f4d49dc84466eaa2c74ad9de62d0bd2b0133e"
+  },
+  {
+    "file": "play/chapters/assets/cup-chopsticks.svg",
+    "bytes": 432,
+    "sha256": "596ffbacb25a9052a8ec0487a3a497bd5f61aede7ce54a1cd446607c4a05cdc2"
+  },
+  {
+    "file": "play/chapters/assets/daiyu-xiao-normal.png",
+    "bytes": 2070721,
+    "sha256": "493dbe1abd99e47ff7af05a42c9dbf89cb1621cd55910bdca9a7ccca74f8f9e0"
+  },
+  {
+    "file": "play/chapters/assets/daiyu-xiao-smile.png",
+    "bytes": 1995697,
+    "sha256": "76cf435cf0e1c231adba33d859f794c23f67f4b9e3d7a63b57e1b17d1f8eef7a"
+  },
+  {
+    "file": "play/chapters/assets/daiyu.png",
+    "bytes": 2070721,
+    "sha256": "493dbe1abd99e47ff7af05a42c9dbf89cb1621cd55910bdca9a7ccca74f8f9e0"
+  },
+  {
+    "file": "play/chapters/assets/dao-story.png",
+    "bytes": 2995544,
+    "sha256": "be5ca58f992387a3513f6a74b67171d9ee5e808499c1a0f43cc1a97fbde0059e"
+  },
+  {
+    "file": "play/chapters/assets/dao-yihong-bg.png",
+    "bytes": 2853566,
+    "sha256": "84e3a788d05e13f8a0803b6802d6cc81259800dfb8abe5d913b120dc3248ae21"
+  },
+  {
+    "file": "play/chapters/assets/ginger-vinegar.svg",
+    "bytes": 419,
+    "sha256": "09492c79e4d93ab950e52fbe65277e60df84600452064ed816b664c9d5cd168b"
+  },
+  {
+    "file": "play/chapters/assets/heng-story.png",
+    "bytes": 3165223,
+    "sha256": "4f760d5e0f757f2b2435a31624b02ea933a4549be9dab5ee29e5a9c52a579bed"
+  },
+  {
+    "file": "play/chapters/assets/liwan-dao-smile.png",
+    "bytes": 2007472,
+    "sha256": "c8712090a51610b3cc83d7e449b14ce0b91d38234be40601ff3f383d1a7309eb"
+  },
+  {
+    "file": "play/chapters/assets/liwan-dao.png",
+    "bytes": 1951926,
+    "sha256": "4b329afe344d614859a1846cabfed46ee931979789c88322428ac9b96d7f284f"
+  },
+  {
+    "file": "play/chapters/assets/liwan.png",
+    "bytes": 1914054,
+    "sha256": "9fa3fa68a86e490d0a54a51af70e3ee996ad7e13b4155524a97630989a8a1911"
+  },
+  {
+    "file": "play/chapters/assets/maid-dao-smile.png",
+    "bytes": 1879487,
+    "sha256": "cb75ca739f59b4daa1aa8b8b1a5df65fff40548c493c1057352183a86f563669"
+  },
+  {
+    "file": "play/chapters/assets/maid-dao.png",
+    "bytes": 1868920,
+    "sha256": "10760837c98d40a7f2d7997c7e59d0ebc254aa612cb6a6f784296d87ff203bb2"
+  },
+  {
+    "file": "play/chapters/assets/maid.png",
+    "bytes": 1864738,
+    "sha256": "c1e63041572eb419714ea3fd40ffb21487c2ef91cb37e7be73f8c6d8bbc89f37"
+  },
+  {
+    "file": "play/chapters/assets/oux-story.png",
+    "bytes": 3216699,
+    "sha256": "e077baf4135e140cf5779bb884853641463e6cd83a4239d6a03650d63c6be2ef"
+  },
+  {
+    "file": "play/chapters/assets/porcelain-bowl.svg",
+    "bytes": 415,
+    "sha256": "1865d86d3fc7f9cb1f9c2ceb515838be3c1f57c6049815168e0e734261806838"
+  },
+  {
+    "file": "play/chapters/assets/pozi-xiao-normal.png",
+    "bytes": 1921305,
+    "sha256": "c25634a10753aba4a05771e64cf5b36be5cd9b23f815c742850a96b45af9e5b8"
+  },
+  {
+    "file": "play/chapters/assets/pozi-xiao-smile.png",
+    "bytes": 1832705,
+    "sha256": "72e19cb84c02b22ce05a8605fd3f497d8a02bbc2f28a54a986ae8d35c18e8ea2"
+  },
+  {
+    "file": "play/chapters/assets/rock-sugar.svg",
+    "bytes": 363,
+    "sha256": "5342ab378d450ec07aa2b4378e8b3330af457c076ddd0a64b8103bc5fdf09b33"
+  },
+  {
+    "file": "play/chapters/assets/silver-pot.svg",
+    "bytes": 428,
+    "sha256": "c83853cc5b6c7bc2d9a81309bf59b9db79cdc9d5729def15311a645eb53472fe"
+  },
+  {
+    "file": "play/chapters/assets/tea-bowl.svg",
+    "bytes": 454,
+    "sha256": "363861e3a5101f3dc4f3a1c6c6aeb2327dcd49020f368f3d4b85dc2adb65f6aa"
+  },
+  {
+    "file": "play/chapters/assets/xiangyun-heng-smile.png",
+    "bytes": 2682740,
+    "sha256": "d3e79083ac90f962ac4c0cf0e67bb85298e9ec39a6cc0146c2420669f1170ab2"
+  },
+  {
+    "file": "play/chapters/assets/xiangyun-heng-thoughtful.png",
+    "bytes": 2252493,
+    "sha256": "648bc163d8e0b589fb984ec6df07a2cd403efe787c2bd68161b64d7f43fe34f4"
+  },
+  {
+    "file": "play/chapters/assets/xiangyun.png",
+    "bytes": 2663913,
+    "sha256": "f174669a8151e311f221f775d4272a51f7ded219cc5f0c80d57fb76e2d803155"
+  },
+  {
+    "file": "play/chapters/assets/xiao-food-note-hero.png",
+    "bytes": 3147356,
+    "sha256": "367c51db884f89335c04bad064227a64278e54a8a0c0426eb383048d02b6ca15"
+  },
+  {
+    "file": "play/chapters/assets/xiao-story.png",
+    "bytes": 3086721,
+    "sha256": "c37992b5c713b3a70e5c9c0eda735689fd565d689262e84fccfa6a0864867444"
+  },
+  {
+    "file": "play/chapters/assets/xiren-dao-smile.png",
+    "bytes": 2020306,
+    "sha256": "59319ecdf869076bd5afcbe5936c963bda4bd0fd3dce5c00eeee6d056943c965"
+  },
+  {
+    "file": "play/chapters/assets/xiren-dao.png",
+    "bytes": 1916310,
+    "sha256": "bdcfabb9c6d89f97de589a984db95ef7210c7a79f73aa1c054d9de4c524e895e"
+  },
+  {
+    "file": "play/chapters/assets/xiren.png",
+    "bytes": 986480,
+    "sha256": "37baa0e594b2fd281ed32561b6d2e666c84f75be278d27c2c402f07d2c35d227"
+  },
+  {
+    "file": "play/chapters/assets/zijuan-xiao-normal.png",
+    "bytes": 1790495,
+    "sha256": "57ccf84fbb40da274c6719ed26aa5baeb001ffff8aaf5f6e7679a49ea7c12bb2"
+  },
+  {
+    "file": "play/chapters/assets/zijuan-xiao-smile.png",
+    "bytes": 1718120,
+    "sha256": "617cfb7f2cfca28c72ffb416b06df78826838f551a77a48f87a2ad7bf9e3d236"
+  },
+  {
+    "file": "play/chapters/assets/zijuan.png",
+    "bytes": 1790495,
+    "sha256": "57ccf84fbb40da274c6719ed26aa5baeb001ffff8aaf5f6e7679a49ea7c12bb2"
+  },
+  {
+    "file": "play/chapters/dao-story.html",
+    "bytes": 1964,
+    "sha256": "8d07960051e9b8ffb0aa76cd3f9f54940e8805b67301bac8df65aceeff9cc737"
+  },
+  {
+    "file": "play/chapters/game-core.js",
+    "bytes": 1334,
+    "sha256": "8a81a3aa080a6d39c1a12e354b79805920fbf3b67df21158ccc5e4c9ed9f7a1e"
+  },
+  {
+    "file": "play/chapters/game.css",
+    "bytes": 813,
+    "sha256": "3bdd91500cf1fc592d4856d86d0a934d795fbe59f35ad42098b96df3b40af77e"
+  },
+  {
+    "file": "play/chapters/game.js",
+    "bytes": 8106,
+    "sha256": "c90d11b59d5be7d70fef8f5f6ef88344421f14e369d81fdec68649502275440e"
+  },
+  {
+    "file": "play/chapters/heng-story.html",
+    "bytes": 1829,
+    "sha256": "7f73056cd5f05a0d9e0990e090539ae066517932d80acbd15b95ca08d1ac3c36"
+  },
+  {
+    "file": "play/chapters/oux-ending.css",
+    "bytes": 531,
+    "sha256": "f7e650d39b78937078a8cd50b5e58c78b8271dcdf4cf39a8e25e82a32d60158c"
+  },
+  {
+    "file": "play/chapters/oux-game.html",
+    "bytes": 2861,
+    "sha256": "f6e7a8b7e7bb9be20bd087eef1044ff1fe1487edc07be39d6f473fbdb87ac767"
+  },
+  {
+    "file": "play/chapters/oux-story.html",
+    "bytes": 1908,
+    "sha256": "0d54ba1feffce53b4b5e924c2a730e7fd8ea0661d7fbf8c6e5ed54da7deed010"
+  },
+  {
+    "file": "play/chapters/story.css",
+    "bytes": 6588,
+    "sha256": "419e98ee23d6939c947e693d28566301233056c2ac4a772b3dcf9cbbd3ab248c"
+  },
+  {
+    "file": "play/chapters/story.js",
+    "bytes": 27190,
+    "sha256": "bd01ee843b925dbb6a2d86c185a24e5f92acffa3ee223af2f9b3e3f526212d3a"
+  },
+  {
+    "file": "play/chapters/xiao-game.html",
+    "bytes": 2891,
+    "sha256": "e25773a62d654fec4bd1afb9b4c0b502562785e618782745d4faca75c57e5666"
+  },
+  {
+    "file": "play/chapters/xiao-story.html",
+    "bytes": 1697,
+    "sha256": "29975636d6e62938d9925ec3e770c864daca10d2efe06c155ca704ecdcfaf7a5"
+  },
+  {
+    "file": "play/cut-gesture.js",
+    "bytes": 973,
+    "sha256": "10f47abc9e21a5a6efe325ab9c77ecf011a9aa7a5642d36269d944b8f6014d65"
+  },
+  {
+    "file": "play/daoxiang-food-note.css",
+    "bytes": 3697,
+    "sha256": "5510aec19e18d93cf6224f8c17a1a392bbf86c5175d0c480e51688965a0e0d52"
+  },
+  {
+    "file": "play/daoxiang-food-note.html",
+    "bytes": 7593,
+    "sha256": "3bf54e70f171899873fd6b82f83ced4faa9e7555e7cc725abfe88f7f225a395b"
+  },
+  {
+    "file": "play/daoxiang-game.css",
+    "bytes": 6652,
+    "sha256": "b261979680ff960c0ff63a1909d85a5c2d43637a84fc478e4d536cd1aa1f8ec2"
+  },
+  {
+    "file": "play/daoxiang-game.html",
+    "bytes": 2109,
+    "sha256": "f4c090e3e678368e4982f7bbbd9c63fa970c260d9999b6239411e3e2a78d25af"
+  },
+  {
+    "file": "play/daoxiang-game.js",
+    "bytes": 9234,
+    "sha256": "64e1d3c4eb4523510bb10d2bf33f3a486e93929a32bc78d1165c2ba81de325e5"
+  },
+  {
+    "file": "play/eggplant-cook-visuals.js",
+    "bytes": 1774,
+    "sha256": "495f6eb9f3ef4c6a004de67dabb4a015c01ca9c639d9f8d6f7f09791878ba369"
+  },
+  {
+    "file": "play/eggplant-cut-view.js",
+    "bytes": 9097,
+    "sha256": "5906f1329c337499e3d5e1b1576dd9c4e363614f42c7146f575d89c85d91ec7c"
+  },
+  {
+    "file": "play/eggplant-cut.js",
+    "bytes": 1220,
+    "sha256": "8499256497b33aedbc945713034127b1e6b7d297d5342acca420ab131fa8452d"
+  },
+  {
+    "file": "play/eggplant-peel-view.js",
+    "bytes": 8199,
+    "sha256": "d9694d2355375a3d0e2d488ebf2770fa8e48c4c963570e037d1fe3b86cafcdcc"
+  },
+  {
+    "file": "play/eggplant-peel.js",
+    "bytes": 3509,
+    "sha256": "4f1059106c433421e9633c3b3a0339d06a7681bf4fa00fa74c590c563f7d9125"
+  },
+  {
+    "file": "play/eggplant-pot-view.js",
+    "bytes": 22644,
+    "sha256": "ce43e01875497d2e85797dc834edcb67e4621a2cec4a2617a7106bbcf5cf5a5b"
+  },
+  {
+    "file": "play/eggplant-pot.js",
+    "bytes": 1621,
+    "sha256": "4f4ef4263f903af5b1646190d3775928d4728480c76351ab702529ce441fcd72"
+  },
+  {
+    "file": "play/eggplant-story/assets/banquet-bg-v2.png",
+    "bytes": 2722431,
+    "sha256": "2d65a51db1470638f644e9e7fa9cc97977c5edc57814793c5ada6d230f18e21d"
+  },
+  {
+    "file": "play/eggplant-story/assets/chef-pov-v1.png",
+    "bytes": 3009759,
+    "sha256": "9f964ae09c79496f6366500eef74f37552b12e37fe7b029c4ddf5d23036b6f23"
+  },
+  {
+    "file": "play/eggplant-story/assets/jia-mu-normal-v1.png",
+    "bytes": 2788318,
+    "sha256": "fb1680ac4cde8b88685a3fc909c0c04763eb82b425c241d7360e8e02139a3d73"
+  },
+  {
+    "file": "play/eggplant-story/assets/jia-mu-smile-v3.png",
+    "bytes": 2611841,
+    "sha256": "414158bf1137240986005dee1c2e5c0e00b900ab0927d424f0c20fc880ffcc35"
+  },
+  {
+    "file": "play/eggplant-story/assets/liu-laolao-normal-v1.png",
+    "bytes": 2214735,
+    "sha256": "22908dddd47087e5072a2fe820bf1ebc5608d4cafc42339ae63a6a8ed4c8c298"
+  },
+  {
+    "file": "play/eggplant-story/assets/liu-laolao-smile-v1.png",
+    "bytes": 2151817,
+    "sha256": "a3d3a64fd4014c4e8b583fc73301c5ebbf63a81dc6c1907fcf95b7c38ee83d8b"
+  },
+  {
+    "file": "play/eggplant-story/assets/liu-laolao-surprised-v1.png",
+    "bytes": 2019528,
+    "sha256": "92c9c68ad3434b0f050c3e01aac7738f1cfd0531ae40a50ea1ccbc3db9bb1125"
+  },
+  {
+    "file": "play/eggplant-story/assets/liu-laolao-tasting-v1.png",
+    "bytes": 2071735,
+    "sha256": "2a226b7938b335195832f1f5e3055b587a2a2c01b8881a40f54eedc907815710"
+  },
+  {
+    "file": "play/eggplant-story/assets/wang-xifeng-normal-v1.png",
+    "bytes": 2412236,
+    "sha256": "25ca44443281bfc7acffc7da1096a252e3f2f9cc280072833026cd15d829f992"
+  },
+  {
+    "file": "play/eggplant-story/assets/wang-xifeng-smile-v1.png",
+    "bytes": 2585752,
+    "sha256": "281f0522bd444534e7d9620409c9cba28a89bb2567e21ac1ec8c27650d48fdb9"
+  },
+  {
+    "file": "play/eggplant-story/food-note.css",
+    "bytes": 3893,
+    "sha256": "df53505c641fab4da04cbefe31a2b4daaaae416ea1dfb3b3cff5201b64b8f902"
+  },
+  {
+    "file": "play/eggplant-story/food-note.html",
+    "bytes": 7280,
+    "sha256": "8b9a0475823e01102c82028b99020e2330a7ee264f541cc91de0bd5bba513f88"
+  },
+  {
+    "file": "play/eggplant-story/player.css",
+    "bytes": 2107,
+    "sha256": "e18edd21a264a9ffadbcb8a0345c524d7d58f358dc8e746b5a21328ee86fae89"
+  },
+  {
+    "file": "play/eggplant-story/story.css",
+    "bytes": 4665,
+    "sha256": "3a21dcd32a266425782a49b94e501edb58d0ca3f8da6b280f7600b20199f2794"
+  },
+  {
+    "file": "play/eggplant-story/story.html",
+    "bytes": 2506,
+    "sha256": "acc6df10bc9de18271ac4f8e9d65239dced45c3ac8be8afb422223a64e266614"
+  },
+  {
+    "file": "play/eggplant-story/story.js",
+    "bytes": 12721,
+    "sha256": "321b4afc01b0aa9fed270c2ba71e6259c1b6be3bf402b0c33415a6d8c2f6f7c9"
+  },
+  {
+    "file": "play/eggplant-story/style.css",
+    "bytes": 4752,
+    "sha256": "e72652bed79e20bf1afebe998dc104a7becd1f4a69f7f4356d73ae10ed90235d"
+  },
+  {
+    "file": "play/hengwu-banquet.css",
+    "bytes": 6664,
+    "sha256": "47d7858cfa69ff2db691420ec131897e931118385ab2b090b7bfa8467cdd0d0d"
+  },
+  {
+    "file": "play/hengwu-banquet.html",
+    "bytes": 2123,
+    "sha256": "5516e1ecf6f0615dcaa371578c9c4c98395a7f7e70ebbb4803280f604d9a100e"
+  },
+  {
+    "file": "play/hengwu-banquet.js",
+    "bytes": 9159,
+    "sha256": "6f5349c379c15a147b5a58babff184743363490289a2e09142fa840f54bf409d"
+  },
+  {
+    "file": "play/hengwu-food-note.css",
+    "bytes": 3656,
+    "sha256": "1b155a814640e31efe61604fda5b774bff7db657cddea7e30f80098f393d9b13"
+  },
+  {
+    "file": "play/hengwu-food-note.html",
+    "bytes": 4773,
+    "sha256": "f6f2ba0e8cb586c3015bd0ab34ec35d0296330ffcd73f9051f5b74e80244a4e9"
+  },
+  {
+    "file": "play/home-draft.css",
+    "bytes": 3190,
+    "sha256": "8ede7237a8fb6ff2cbaccbc28fa78da3a75835d57b384682c5c13004e3dca48e"
+  },
+  {
+    "file": "play/index.html",
+    "bytes": 127,
+    "sha256": "460414194d9cde26679b44aafecfcfb11001525afdc1b3867d9b63129622558f"
+  },
+  {
+    "file": "play/kitchen-draft.css",
+    "bytes": 15598,
+    "sha256": "eb7fc2ebd3fdce9517e4bd74a923a968c1eca0c1fa69d65be2b2a91b788bafa5"
+  },
+  {
+    "file": "play/kitchen-draft.html",
+    "bytes": 5074,
+    "sha256": "b546c7b5f310adc45865383f7414db11531a700a704dd3580537dcbf1a06924a"
+  },
+  {
+    "file": "play/kitchen-draft.js",
+    "bytes": 20789,
+    "sha256": "3153aa196e7ef6a643cbe1c971d3a774bc42b0ae14a85f7cc0aef784b1dccc12"
+  },
+  {
+    "file": "play/kitchen-scene.css",
+    "bytes": 7902,
+    "sha256": "1e1ab30ad9aa5c746e12250b74f27831b90f3142190d7f9eafaac1283912fe5c"
+  },
+  {
+    "file": "play/oux-food-note.css",
+    "bytes": 3540,
+    "sha256": "3c24e71b7ea07a484764cc89002d2be429fb87184f79328a11213091b08f1d99"
+  },
+  {
+    "file": "play/oux-food-note.html",
+    "bytes": 6459,
+    "sha256": "d8db7addc846150e0a4ce4a84b8d2d52ffabbb1256f41f66b8af367395146f55"
+  },
+  {
+    "file": "play/previews/daoxiang-food-note/ending-desktop.png",
+    "bytes": 186217,
+    "sha256": "35d05f1b39c1c434cb55b3d2a7a1db98245048b1e40eb2b43b5237c0f8f2dfd0"
+  },
+  {
+    "file": "play/previews/daoxiang-food-note/ending-entry-refreshed.png",
+    "bytes": 84084,
+    "sha256": "37d8a4b75e67291e1a2a8fc01396f578370715bc6184b3f14c2c59b2e306251e"
+  },
+  {
+    "file": "play/previews/daoxiang-food-note/ending-mobile.png",
+    "bytes": 69378,
+    "sha256": "4013b6b2da9ca8c39302b96fe4972e93e762179f42b439d58be5b41511af19eb"
+  },
+  {
+    "file": "play/previews/daoxiang-food-note/food-note-desktop.png",
+    "bytes": 60290,
+    "sha256": "f22c90de5940d7ff3d18ff5973a2c8b3f960f176e575642c4f77511ab58af12a"
+  },
+  {
+    "file": "play/previews/daoxiang-food-note/food-note-full.png",
+    "bytes": 698808,
+    "sha256": "1003d19e3af6d900f4d99ebfa815b6e52612a3d4876d364349a247732cabfc66"
+  },
+  {
+    "file": "play/previews/daoxiang-food-note/food-note-mobile.png",
+    "bytes": 415204,
+    "sha256": "c869006a9a7ea50332187e8ccc6eb0919182ca8e1b08d58265f6f6a4bca54716"
+  },
+  {
+    "file": "play/previews/daoxiang-food-note/food-note-wide-desktop.png",
+    "bytes": 130001,
+    "sha256": "d0f2cc7e55222e735d83e4113431dc02fe1b90534971973e88984b89d781ccb1"
+  },
+  {
+    "file": "play/previews/daoxiang-food-note/food-note-wide-mobile.png",
+    "bytes": 61333,
+    "sha256": "319b2977734d4251894d7afd95c2f10516236523e670c88717bd4c6b6c4ffaab"
+  },
+  {
+    "file": "play/previews/daoxiang-food-note/map-entry-verified.png",
+    "bytes": 63582,
+    "sha256": "f32ed16259d7056505b584e9e8dce80d44f4b7542762c45217934afb91cfe18e"
+  },
+  {
+    "file": "play/previews/xiao-food-note/xiao-ending-entry.png",
+    "bytes": 250021,
+    "sha256": "faa4620a7c744bb633e716e9d79fbca0e9dc897e59bb549cf16b017173c4f967"
+  },
+  {
+    "file": "play/previews/xiao-food-note/xiao-food-note-desktop.png",
+    "bytes": 591069,
+    "sha256": "a4903e7c869960222020cca4252a2e0c3c31071a4f424ccecd5490f4fca1ac57"
+  },
+  {
+    "file": "play/previews/xiao-food-note/xiao-food-note-mobile.png",
+    "bytes": 322645,
+    "sha256": "0e322e8624a18e92e872c3f4d088f49a88abd2a1ca3433d3bd5d1358fe1f1806"
+  },
+  {
+    "file": "play/story-data.js",
+    "bytes": 2018,
+    "sha256": "6d8730bdae05d34c4e05099bd713a0f693d9c8575acdf03c61a93dc31753ba6f"
+  },
+  {
+    "file": "play/styles.css",
+    "bytes": 4917,
+    "sha256": "bf9f5dee73c485caebd4bfb5ea2582934fe95c86570ea5c483ae45a6465ac573"
+  },
+  {
+    "file": "play/xiao-food-note.css",
+    "bytes": 3249,
+    "sha256": "b9e55d1c154bb6a162fc1fb26bd3c0e22a8d12536e59e7ded0366bd144f245d0"
+  },
+  {
+    "file": "play/xiao-food-note.html",
+    "bytes": 5647,
+    "sha256": "ccdcc12102d63fbe5b6d14106d3924ebabd9c001478d3c8862177b34558127c5"
+  },
+  {
+    "file": "play/yihong/assets/baoyu-normal.png",
+    "bytes": 1176439,
+    "sha256": "82adab5655260811a97c5339431f11476c67b0296656759ab0e9b86a9b0ffed1"
+  },
+  {
+    "file": "play/yihong/assets/baoyu-smile.png",
+    "bytes": 1187251,
+    "sha256": "970f55b71f5640759d079e7b829e82b9710dc4bb5c298d3695be69ae10c7a41f"
+  },
+  {
+    "file": "play/yihong/assets/cake-catch/background-desktop.png",
+    "bytes": 2286759,
+    "sha256": "dfcc03db534c41a4f8035110afdd0cdf15b187b5a339296b868d784a5ad273d1"
+  },
+  {
+    "file": "play/yihong/assets/cake-catch/chestnut.svg",
+    "bytes": 654,
+    "sha256": "575b081c097caa4319ae43122d64901e55a89b4409fc948b1f9e7f96cfe0f45b"
+  },
+  {
+    "file": "play/yihong/assets/cake-catch/fox-nut.svg",
+    "bytes": 574,
+    "sha256": "7b82faac605d1b682d7074b405e5b235267be02e4c0f417cfbd131eed2b01b42"
+  },
+  {
+    "file": "play/yihong/assets/cake-catch/honey-water.svg",
+    "bytes": 619,
+    "sha256": "31d2fbfd374f6b90af2b3289dc4b2f7031db95a9299d4bbb4d65aa3b91bc2714"
+  },
+  {
+    "file": "play/yihong/assets/cake-catch/osmanthus.svg",
+    "bytes": 886,
+    "sha256": "343dec3ff812932f42ee34c8294871549bd552170f461c8ce8a037bcb3c3b853"
+  },
+  {
+    "file": "play/yihong/assets/cake-catch/pickled-bamboo.svg",
+    "bytes": 581,
+    "sha256": "9f88cfaf115c458464fa371b9d16fb4baaeeca635ca173ab499204c71d4627af"
+  },
+  {
+    "file": "play/yihong/assets/cake-catch/plate.svg",
+    "bytes": 777,
+    "sha256": "22ef25a7cb5382d2a9be7ffc607d880ebf02bc3651483a2457e73884305d08aa"
+  },
+  {
+    "file": "play/yihong/assets/cake-catch/red-caltrop.svg",
+    "bytes": 593,
+    "sha256": "81ad39a199f8c0cbbace20c7e23de8ededd819c4d578c2ec42856ab0b3dab699"
+  },
+  {
+    "file": "play/yihong/assets/cake-catch/rice-flour.svg",
+    "bytes": 655,
+    "sha256": "c80381140dfbcd5d3280ecdbcf5e9c535a63210bdecc3fe07a6362c97d35f238"
+  },
+  {
+    "file": "play/yihong/assets/cake-finished-hero.png",
+    "bytes": 2862104,
+    "sha256": "bafbdd1009caf0c93236eb5d616cbc95ab6e965067f2f581216b985f0484f3ed"
+  },
+  {
+    "file": "play/yihong/assets/cake-workbench.png",
+    "bytes": 2681419,
+    "sha256": "7dbd93f1a2409c6d8f20fb370620049ecef2d51ec8f7d63b6ce14a31d15bb44e"
+  },
+  {
+    "file": "play/yihong/assets/qingwen-normal.png",
+    "bytes": 722539,
+    "sha256": "5bb7b969d237ea1b3b0e882fd981a8c6d06f5090f6f4408fba0dad5692a4e312"
+  },
+  {
+    "file": "play/yihong/assets/qingwen-smile.png",
+    "bytes": 724368,
+    "sha256": "2d347f6295af6e699a3da6148589e7aa6a13bc2f386224eedca7f6d8951a5067"
+  },
+  {
+    "file": "play/yihong/assets/qiuwen-normal.png",
+    "bytes": 715656,
+    "sha256": "7b82b3317fe1a1c4affcc8129a166ba994a0359c079453b0c310f3c9f87b500b"
+  },
+  {
+    "file": "play/yihong/assets/qiuwen-smile.png",
+    "bytes": 714165,
+    "sha256": "8c3379446dce0bee37c75d397c59e41bdf1b50e4753c4551290171332743e6db"
+  },
+  {
+    "file": "play/yihong/assets/song-normal.png",
+    "bytes": 790679,
+    "sha256": "81cd545a2cb0079d7ef373618b48bde78a305b9c875ae38b35a73166057cee5f"
+  },
+  {
+    "file": "play/yihong/assets/song-smile.png",
+    "bytes": 781627,
+    "sha256": "a8bd48cbe290cb9aab82993df501d1158a4ab1d26d7e14c822ec2bebe6a00fe3"
+  },
+  {
+    "file": "play/yihong/assets/xiren-normal.png",
+    "bytes": 986480,
+    "sha256": "37baa0e594b2fd281ed32561b6d2e666c84f75be278d27c2c402f07d2c35d227"
+  },
+  {
+    "file": "play/yihong/assets/xiren-smile.png",
+    "bytes": 982637,
+    "sha256": "d2503ff31c3c227b0479946f1307440e73ec79b999baab0fc48b01a2bd5f213d"
+  },
+  {
+    "file": "play/yihong/assets/yihong-bg.png",
+    "bytes": 2853566,
+    "sha256": "84e3a788d05e13f8a0803b6802d6cc81259800dfb8abe5d913b120dc3248ae21"
+  },
+  {
+    "file": "play/yihong/cake-game-core.js",
+    "bytes": 1330,
+    "sha256": "69f17a599d0448f48c8232031df2925344f0997af760a0cb2c9798c39043d627"
+  },
+  {
+    "file": "play/yihong/cake-game.css",
+    "bytes": 6471,
+    "sha256": "f4ca7bbd19d11dd8a51d4105b731e6605115f7450b2ec1c95d709875170e4f8e"
+  },
+  {
+    "file": "play/yihong/cake-game.html",
+    "bytes": 3049,
+    "sha256": "b50dcac955e05d01b68064bbdf2f0aefbad017c1d5d278caf615c2983087293c"
+  },
+  {
+    "file": "play/yihong/cake-game.js",
+    "bytes": 7193,
+    "sha256": "1473ba7dd0e9ce85d827ab5fedf17d3ac082539f4dcd7c848adec863e63606d7"
+  },
+  {
+    "file": "play/yihong/food-note.css",
+    "bytes": 3068,
+    "sha256": "542a834ff318e64eebdf7fb54a26a322989a637011761ffa63adb5cf934b968a"
+  },
+  {
+    "file": "play/yihong/food-note.html",
+    "bytes": 5243,
+    "sha256": "4bb784a7b5850c8aaa04244a4acff4244771355f13c4a274ac2a7346f79a8e94"
+  },
+  {
+    "file": "play/yihong/story.css",
+    "bytes": 9322,
+    "sha256": "491bf6a253695b20238e704a04c1296c4805a8a55dbe8696a465aa8574ec9855"
+  },
+  {
+    "file": "play/yihong/story.html",
+    "bytes": 11578,
+    "sha256": "0edaad6b517ea70661560ac5c8ebb6a83e05545b171be49fcc678ca0b5c4bf76"
+  },
+  {
+    "file": "play/yihong/story.js",
+    "bytes": 10774,
+    "sha256": "ad6607952d9dce9f18a4d88ede6fc6bcb6c4f219cde36949687accf52aea9c81"
+  },
+  {
+    "file": "play/yihong/style.css",
+    "bytes": 4751,
+    "sha256": "72ba0859d316f9c30733705780947356af4b583817ec4f966bce4257591d28fe"
+  },
+  {
+    "file": "release.json",
+    "bytes": 203,
+    "sha256": "4fc1bab327c6eec2bb1dc21e69e26853d4f3888b4d931ce849177f183733dd2c"
+  },
+  {
+    "file": "routes.json",
+    "bytes": 1415,
+    "sha256": "8cf8e4d8dfdf0c7eb955038980fce9182b5114e1db706cbb44c858f96349756b"
+  },
+  {
+    "file": "site-navigation.css",
+    "bytes": 426,
+    "sha256": "9099ba31c821c05ad857459c0b79847e77ea3be1b4adb1c63b113b468d51a1a7"
+  },
+  {
+    "file": "story-shared.css",
+    "bytes": 3540,
+    "sha256": "9ca399ff4b204a5885213357339ca785fba63c6cfc5c76dea63bccb55005981b"
+  },
+  {
+    "file": "story-shared.js",
+    "bytes": 1444,
+    "sha256": "feb36fd5d55b9c217054b6fe4c4b4e94d8f4838d2904b761f2c0dcfede3d0c2c"
+  },
+  {
+    "file": "styles.css",
+    "bytes": 12739,
+    "sha256": "8a94ff04fa549924c235bbe6b9c77c6153e611445d27fdb5f5eb9e9309c5d814"
+  },
+  {
+    "file": "view.js",
+    "bytes": 1496,
+    "sha256": "b76896f573fffbd537cbb2790367743956f9f9950520fbc673465a2753e754e0"
+  }
+]
