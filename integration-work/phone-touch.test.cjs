@@ -1,0 +1,15 @@
+const assert=require('node:assert/strict'),vm=require('node:vm'),fs=require('node:fs');
+const handlers={},moved=[];let captured=null;
+const column={addEventListener:(n,f)=>handlers[n]=f,setPointerCapture:id=>captured=id,hasPointerCapture:id=>captured===id,releasePointerCapture:()=>captured=null};
+const zone={dispatchEvent:e=>moved.push([e.clientX,e.clientY])};
+const elements={'game-column':column,'play-zone':zone,'catch-zone':{},modal:{hidden:true},pause:{getAttribute:()=> 'false'}};
+const document={readyState:'complete',title:'test',getElementById:id=>elements[id],querySelector:()=>null};
+const window={addEventListener:()=>{}};
+const context={document,window,parent:{postMessage:()=>{}},history:{pushState(){},replaceState(){}},location:{origin:'http://localhost',pathname:'/game',search:'',hash:''},PointerEvent:class{constructor(type,opts){Object.assign(this,opts);this.type=type;}}};
+vm.runInNewContext(fs.readFileSync('integration-work/mobile-source/phone-frame.js','utf8'),context);
+const e=(x,y=220,target={closest:()=>false})=>({clientX:x,clientY:y,pointerId:7,pointerType:'touch',button:0,target,preventDefault(){}});
+handlers.pointerdown(e(150));assert.equal(captured,7);handlers.pointermove(e(800));assert.equal(moved.length,2);assert.equal(moved[1][0],800);
+handlers.pointercancel(e(800));assert.equal(captured,null);handlers.pointermove(e(900));assert.equal(moved.length,2);
+handlers.pointerdown(e(100,10,{closest:()=>true}));assert.equal(captured,null);
+elements.modal.hidden=false;handlers.pointerdown(e(100));assert.equal(captured,null);
+console.log('PASS 手机拖动捕获、逻辑坐标转发、取消清理、按钮与弹窗不拦截');
