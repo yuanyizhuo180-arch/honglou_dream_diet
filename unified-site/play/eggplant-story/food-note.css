@@ -1,0 +1,41 @@
+:root{color-scheme:light;--ink:#302823;--cinnabar:#913e31;--gold:#af8a4b}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#b89a79 url("assets/banquet-bg-v2.png") center top/cover fixed;color:var(--ink);font-family:"Songti SC","Noto Serif CJK SC","STSong",serif}
+body::before{content:"";position:fixed;inset:0;background:#3b211b70;pointer-events:none}
+.note-page{position:relative;max-width:1320px;margin:0 auto;padding:28px 24px 68px}
+.hero{margin:0 0 14px;position:relative;aspect-ratio:2.82;outline:2px solid #a35c41;box-shadow:0 16px 35px #2e1a15a8;overflow:hidden}
+.hero img{display:block;width:100%;height:100%;object-fit:cover;object-position:center center}
+.hero figcaption{position:absolute;right:18px;bottom:17px;background:#f9eadbdc;color:#683829;padding:6px 13px;font-size:15px;letter-spacing:.06em}
+.paper{background:linear-gradient(110deg,#f2e2c5f8,#fbf2dff9 45%,#e9d5b4f8);border:2px solid #a35c41;outline:1px solid #e8c49a;outline-offset:-12px;box-shadow:0 13px 30px #2e1a1580;padding:52px clamp(26px,6vw,105px) 68px}
+.note-heading{text-align:center;padding:4px 0 45px}
+.chapter{font-size:18px;letter-spacing:.1em;color:#754637;margin:0 0 18px;line-height:1.8}
+h1{font-size:clamp(30px,3.6vw,52px);line-height:1.3;letter-spacing:.07em;color:#762d27;margin:0;font-weight:600;text-wrap:balance}
+.subtitle{font-size:23px;color:#855638;margin:20px 0 0;letter-spacing:.12em}
+.reading-column{max-width:950px;margin:auto}
+section{border-top:1px solid #c9a782;padding:33px 0 25px}
+h2{font-size:clamp(23px,2.2vw,30px);color:#783128;font-weight:600;margin:0 0 22px;letter-spacing:.06em;line-height:1.5}
+p{font-size:20px;line-height:1.85;margin:0 0 17px}
+section>p:last-child{margin-bottom:0}
+.process-card{background:#fff9eebd;border-left:3px solid var(--gold);margin:23px 0;padding:18px 21px}
+.process-card h3{font-size:19px;color:#873f32;margin:0 0 9px;font-weight:600}
+.process-card ol{margin:0;padding-left:1.5em;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:25px}
+.process-card li{font-size:18px;line-height:1.8;padding:2px 0}
+.custom-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:0 0 10px;align-items:stretch}
+.custom-grid p{background:#fff9eebd;border-left:3px solid var(--gold);padding:18px 21px;margin:0;font-size:18px;line-height:1.75}
+.custom-grid strong,.sources h3{color:#873f32}
+.afterword{text-align:center}
+.afterword h2{font-size:25px}
+.afterword .closing-line{color:#873f32;font-size:24px;margin-top:18px}
+.sources h3{font-size:19px;margin:0 0 9px}
+.source-group{padding:12px 0 18px;border-bottom:1px solid #d6b997}
+.source-group:last-of-type{border-bottom:0}
+.sources p,.sources li{font-size:17px;line-height:1.75}
+.sources ul{padding-left:1.4em;margin:0}
+.adaptation-note{background:#fff9eebd;border-left:3px solid var(--gold);padding:14px 19px;margin-top:16px!important}
+.ending-actions{display:flex;justify-content:center;gap:24px;padding:38px 0 0}
+.ending-actions a{min-width:236px;text-align:center;text-decoration:none;background:var(--cinnabar);color:#fff1d7;border:2px solid #d5a779;box-shadow:0 7px 15px #3b211b66;padding:16px 24px;font-size:22px;letter-spacing:.1em}
+.ending-actions a:hover{background:#a94b38}
+.ending-actions a:focus-visible{outline:3px solid #fff2ba;outline-offset:5px}
+@media(max-width:700px){body{background-attachment:scroll}.note-page{padding:12px 12px 35px}.hero figcaption{font-size:10px;right:7px;bottom:7px;padding:3px 6px;max-width:calc(100% - 14px)}.paper{padding:36px 22px 44px}.chapter{font-size:14px}.subtitle{font-size:18px}p{font-size:17px}.custom-grid,.process-card ol{grid-template-columns:1fr}.custom-grid p,.process-card li,.sources p,.sources li{font-size:16px}.ending-actions{flex-direction:column;gap:12px}.ending-actions a{width:100%;min-width:0;font-size:18px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

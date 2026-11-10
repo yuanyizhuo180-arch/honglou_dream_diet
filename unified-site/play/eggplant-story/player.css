@@ -1,0 +1,15 @@
+html,body{width:100%;height:100%;overflow:hidden}body{min-height:100dvh}.story-preview{width:100%;height:100dvh;margin:0;display:grid;place-items:center}.story-stage{width:min(100vw,177.77778dvh);height:min(100dvh,56.25vw);aspect-ratio:16/9;box-shadow:none}.story-actions{position:absolute;inset:0;pointer-events:none;padding:0}.story-actions #scene-description{display:none}.story-actions #next-scene{display:none;pointer-events:auto}.story-preview:has(.story-stage.a0) .story-actions #next-scene{display:block;position:absolute;left:50%;bottom:8%;transform:translateX(-50%);z-index:8;padding:12px 30px;color:#fff1d7;background:#913e31;border:2px solid #d5a779;text-decoration:none;font-size:clamp(16px,1.5vw,24px);white-space:nowrap}.story-stage .scene-cta{cursor:pointer}.story-stage .scene-cta:hover,.story-preview:has(.story-stage.a0) .story-actions #next-scene:hover{background:#ab523b}.story-stage .dialogue{touch-action:manipulation}@media(max-aspect-ratio:16/9){.scene-kicker,.dialogue,.scene-cta,.scene-corner,.intro-content{font-size:inherit}}/* Expanded banquet scenes reuse the confirmed background and portraits. */
+.story-stage.portrait-pair .portrait.liu{left:1%;right:auto;width:42%}
+.story-stage.portrait-pair .portrait.wang{right:1%;left:auto;width:42%}
+.story-stage.portrait-pair .portrait.jia{right:1%;left:auto;width:48%}
+.story-stage.portrait-solo .portrait.liu{left:3%;right:auto;width:50%}
+.story-stage.portrait-solo .portrait.wang{right:3%;left:auto;width:50%}
+.story-stage.portrait-solo .portrait.jia{right:3%;left:auto;width:50%}
+.story-stage.a15 .scene-corner,.story-stage.a14 .scene-corner{color:#774b32;background:#f5e7c49c;padding:8px 7px}
+.story-stage.a15 .scene-cta{right:5%;bottom:27%}
+.story-stage .dialogue p{font-size:clamp(18px,2vw,32px)}
+@media(max-width:800px){.story-stage .dialogue p{font-size:clamp(12px,2.2vw,20px)}}
+.story-stage.a5.portrait-pair .portrait.wang{left:1%;right:auto}
+.story-stage.speaker-wang .nameplate,.story-stage.speaker-jia .nameplate{left:72%}
+.story-stage.speaker-liu .nameplate{left:29%}
+.story-stage.speaker-narrator .nameplate{left:50%}
